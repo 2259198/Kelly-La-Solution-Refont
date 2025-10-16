@@ -1,13 +1,13 @@
 import React from "react";
-import "./Contact.scss";
+import "./Home.scss";
 
-function Contact()
+function Home()
 {
     return(
         <div>
 
         </div>
-    )
+    );
 }
 
-export default Contact;
+export default Home;
