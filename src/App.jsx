@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Home from './components/Home';
-import Footer from './components/Footer'
-import Contact from './components/Contact'
+import Header from "./components/Header";
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 import './App.css'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
 
   return (
       <Router>
-        
+        <Header/>
         <main>
           <Routes>
             <Route path='/' element={<Home />} />

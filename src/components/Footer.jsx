@@ -5,7 +5,7 @@ import "./Footer.scss";
 export default function Footer()
 {
     return(
-        <footer>
+        <footer className="footer">
             <div className="elements">
                 <ul>
                     <li>711, Route Harwood, Suite 100, Vaudreuil-Dorion, Québec, J7V 8P2</li>
