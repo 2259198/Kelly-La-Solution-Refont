@@ -5,11 +5,12 @@ import viteLogo from '/vite.svg'
 import Home from './components/Home';
 import Header from "./components/Header";
 import Footer from './components/Footer';
+import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
       <Router>
@@ -17,6 +18,8 @@ function App() {
         <main>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/' element={<FAQ />} />
+
             <Route path='/' element={<Contact />} />
           </Routes>
         </main>
