@@ -1,5 +1,6 @@
 import React from "react";
 import "./FAQ.scss";
+import faq from "./Data/FAQ";
 
 export default function FAQ() {
     return (
@@ -8,22 +9,18 @@ export default function FAQ() {
                 English below
             </h2>
 
-            <h4>Q</h4>
-            <p> Je veux installer une piscine, afin d'obtenir le permis, la ville me demande où se situe mon système septique mais je l'ignore et je n'ai pas les plans d'implantation que faire ?</p>
-            <p>R</p>
-            <p> Nous offrons le service de localisation, à l'aide d'un détecteur de conduites il est possible de localiser le champ d'épuration et ainsi vous pourrez procéder à la demande de permis à la ville.</p>
+            {
+                faq.map((question) => (
+                    <div className="questions">
+                        <h4>Q</h4>
+                        <p>{question.question}</p>
+                        <h4>R</h4>
+                        <p>{question.answer}</p>
+                    </div>
+                ))
+            }
 
-            <h4>Q</h4>
-            <p> J’habite à Saint-Sauveur, couvrez-vous ce secteur ?</p>
-            <p>R</p>
-            <p> Nous offrons le service partout dans la province du Québec. Le siège social est situé à Vaudreuil-Dorion et nous avons une filiale à Québec.  Depuis 11 ans nous avons effectués des travaux : Gaspésie, Lac St-Jean, Baie James, Mont Tremblant, Granby, Les Cèdres, Ste-Justine de Newton, Laval, Pointe-Calumet, Saint-Colomban ...</p>
-
-            <h4>Q</h4>
-            <p> Qu'offrez vous comme service ?</p>
-            <p>R</p>
-            <p> Nous offrons une grande variété de services : aération de sol, réparation de couvercle, excavation, installation d'un nouveau système, mini-caméra avec inspection DVD, rehaussement de couvercle, service de préfiltre, installation de station de pompage extérieure, nettoyer les drains français  ...
-
-                Bref nous n'effectuons pas la vidange de la fosse septique (camion vacuum) et nous n'effectuons pas les tests de sols ... pour le reste nous sommes LA référence.</p>
+            {/* 
 
             <h4>Q</h4>
             <p> Quand est le meilleur moment pour faire effectuer les travaux ?</p>
@@ -83,7 +80,7 @@ export default function FAQ() {
 
             <p>R </p>
 
-            <p>Non. Cela produit des dépôts dans la fosse septique et un trop grand surplus d'eau. </p>
+            <p>Non. Cela produit des dépôts dans la fosse septique et un trop grand surplus d'eau. </p> */}
 
         </div>
     );
