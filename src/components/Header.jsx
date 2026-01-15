@@ -6,7 +6,7 @@ export default function Header()
 {
     return(
         <div className="Header">
-            <nav>
+            <nav className="nav-menu">
                 <li>Accueil</li>
                 <li>Photos</li>
                 <li>Systèmes</li>
