@@ -17,6 +17,7 @@ function App() {
         <Header/>
         <main>
           <Routes>
+            <Route path='/' element={<Contact />} />
             <Route path='/' element={<FAQ />} />
             <Route path='/' element={<Home />} />
 

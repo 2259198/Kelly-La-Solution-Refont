@@ -12,7 +12,7 @@ export default function Footer()
                     <li>514-425-3535</li>
                     <li>info@kellylasolution.ca</li>
                     <li>RBQ 5773-3701-01</li>
-                    <li>® 2003 Kelly La Solution Inc. Tous droits réservés</li>
+                    <li>® {new Date().getFullYear()} Kelly La Solution Inc. Tous droits réservés</li>
                 </ul>
             </div>
         </footer>
