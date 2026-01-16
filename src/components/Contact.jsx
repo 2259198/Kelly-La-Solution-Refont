@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.scss";
 import members from "./Data/Members";
 
-function Contact() {
+export default function Contact() {
     return (
         <div className="Contact">
             <div className="contact-container">
@@ -42,5 +42,3 @@ function Contact() {
         </div>
     )
 }
-
-export default Contact;
