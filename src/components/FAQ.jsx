@@ -5,21 +5,18 @@ import faq from "./Data/FAQ";
 export default function FAQ() {
     return (
         <div className="FAQ">
-            <h2>
-                English below
-            </h2>
+            <h2>English below</h2>
 
-            {
-                faq.map((question) => (
-                    <div className="questions">
+            <div className="questions-wrapper">
+                {faq.map((question, index) => (
+                    <div className="questions" key={index}>
                         <h4>Question</h4>
                         <p>{question.question}</p>
                         <h4>Réponse</h4>
                         <p>{question.answer}</p>
                     </div>
-                ))
-            }
-
+                ))}
+            </div>
         </div>
     );
 }

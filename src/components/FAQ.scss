@@ -1,27 +1,56 @@
-.FAQ{
+.FAQ {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    
+    align-items: center;
+    width: 100%;
     gap: 1.5rem;
     padding: 2rem;
+}
 
-    .questions{
-        display: flex;
-        flex-direction: column;
-        background: white;
-        color: black;
-        border-radius: 20px;
-        padding: 1.5rem;
-        gap: 1.5rem;
-        font-size: clamp(1rem, 1vw, 1.5rem);
-        h4{
-            text-align: center;
-        }
-        p{
-            // color: #0077ff;
-            text-align: left;
-        }
+
+.questions-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    align-items: center;
+}
+
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+
+    h4 {
+        text-align: center;
+    }
+
+    p {
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .questions-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .questions {
+        flex: 1 1 45%;
+        max-width: 500px;
     }
 }
