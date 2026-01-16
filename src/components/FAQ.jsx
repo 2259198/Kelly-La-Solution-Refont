@@ -12,9 +12,9 @@ export default function FAQ() {
             {
                 faq.map((question) => (
                     <div className="questions">
-                        <h4>Q</h4>
+                        <h4>Question</h4>
                         <p>{question.question}</p>
-                        <h4>R</h4>
+                        <h4>Réponse</h4>
                         <p>{question.answer}</p>
                     </div>
                 ))
