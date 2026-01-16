@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.scss";
+import members from "./Data/Members";
 
 function Contact() {
     return (
@@ -11,24 +12,33 @@ function Contact() {
                 <p> Notre adresse : 711 Route Harwood Suite 110 Vaudreuil-Dorion (Québec) J7V 8P2</p>
                 <p> MONTRÉAL ET LES ENVIRONS</p>
                 <p> Notre numéro de téléphone : 514 425-3535 | Sans frais 1 877 858-3535 | 418 842-3636</p>
-                <p> Notre site web : www.kellylasolution.ca </p>
                 <p> Notre adresse courriel : info@kellylasolution.ca</p>
-                
-            </div>
-
-            <div className="members">
-                <h2> Our members </h2>
-                <img src="" alt="This is an image of Mark Kelly" />
-                <p> Président </p>
-                <a href="mark@kellylasolution.ca"> mark@kellylasolution.ca </a>
-                
-                
-                <img src="" alt="This is an image of Geneviève Kelly" />
-                <p> Adjointe administrative </p>
-                <a href="genevieve@kellylasolution.ca "> genevieve@kellylasolution.ca  </a>
-
 
             </div>
+
+
+
+
+            <h2> Our members </h2>
+
+            {
+                members.map((member) => {
+                    return (
+                        <div className="members">
+                            <img src={member.image} alt={member.imageDescription} />
+                            <h4>{member.name}</h4>
+                            <p>{member.role}</p>
+                            <a href="mark@kellylasolution.ca">{member.email}</a>
+
+                        </div>
+                    );
+
+
+
+                })
+            }
+
+
         </div>
     )
 }
