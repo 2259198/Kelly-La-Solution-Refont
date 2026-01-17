@@ -1,11 +1,32 @@
-.videos-section {
+.PhotosVideos {
+
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 1rem;
+    width: 100vw;
 
-    video {
-        width: 320px;
+    .photos-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img{
+            width: 320px;
+            height: auto;
+        }
     }
 
+    .videos-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+
+        video {
+            width: 320px;
+        }
+
+    }
 }

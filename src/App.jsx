@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import SportField from './components/SportField';
+import PhotosVideos from './components/PhotosVideos';
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Header/>
         <main>
           <Routes>
+            <Route path='/' element={<PhotosVideos />} />
             <Route path='/' element={<SportField />} />
             <Route path='/' element={<Contact />} />
             <Route path='/' element={<FAQ />} />
