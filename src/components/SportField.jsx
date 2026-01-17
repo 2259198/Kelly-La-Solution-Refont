@@ -1,6 +1,5 @@
 import React from "react";
 import './SportField.scss'
-import video1 from "../components/Videos/West_Point_Golf.mp4"
 
 export default function SportField() {
     return (
@@ -31,11 +30,7 @@ export default function SportField() {
 
             </div>
 
-            <div className="videos-section">
-                <video src={video1}>
-                    <source src={video1} type="video/mp4"/>
-                </video>
-            </div>
+            
         </div>
     )
 }
