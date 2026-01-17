@@ -29,6 +29,14 @@ import photo24 from "../components/Photos/Photos-Videos-section/Travaux_Hydroexc
 import video1 from "../components/Videos/West_Point_Golf.mp4";
 import video2 from "../components/Videos/AIR_2G2.mp4";
 import video3 from "../components/Videos/Morton_Groundsman.mp4";
+import video4 from "../components/Photos/Photos-Videos-section/Videos/Bionest.mp4";
+import video5 from "../components/Photos/Photos-Videos-section/Videos/Excavation.mp4";
+import video6 from "../components/Photos/Photos-Videos-section/Videos/Installation.mp4";
+import video7 from "../components/Photos/Photos-Videos-section/Videos/Nettoyage.mp4";
+import video8 from "../components/Photos/Photos-Videos-section/Videos/Nettoyer.mp4";
+import video9 from "../components/Photos/Photos-Videos-section/Videos/Pression.mp4";
+import video10 from "../components/Photos/Photos-Videos-section/Videos/Rejet.mp4";
+import video11 from "../components/Photos/Photos-Videos-section/Videos/Tour_Carre.mp4";
 
 export default function PhotosVideos() {
     return (
@@ -72,6 +80,30 @@ export default function PhotosVideos() {
                 </video>
                 <video src={video3}>
                     <source src={video3} type="video/mp4" />
+                </video>
+                <video src={video4}>
+                    <source src={video4} type="video/mp4" />
+                </video>
+                <video src={video5}>
+                    <source src={video5} type="video/mp4" />
+                </video>
+                <video src={video6}>
+                    <source src={video6} type="video/mp4" />
+                </video>
+                <video src={video7}>
+                    <source src={video7} type="video/mp4" />
+                </video>
+                <video src={video8}>
+                    <source src={video8} type="video/mp4" />
+                </video>
+                <video src={video9}>
+                    <source src={video9} type="video/mp4" />
+                </video>
+                <video src={video10}>
+                    <source src={video10} type="video/mp4" />
+                </video>
+                <video src={video11}>
+                    <source src={video11} type="video/mp4" />
                 </video>
             </div>
         </div>
