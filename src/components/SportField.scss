@@ -4,6 +4,7 @@
     flex-direction: column;
     text-align: center;
     padding: 1.5rem;
+    width: 100%;
 
     .problem-section{
         display: flex;
@@ -14,17 +15,11 @@
         color: black;
         padding: 2rem;
         border-radius: 20px;
-    }
 
-    .videos-section{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 1rem;
-
-        video{
-            width: 320px;
+        img{
+            max-width: 250px;
         }
-
     }
+
+    
 }

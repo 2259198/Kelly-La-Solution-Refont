@@ -1,5 +1,7 @@
 import React from "react";
-import './SportField.scss'
+import './SportField.scss';
+import photo1 from "../components/Photos/terrain-de-balle-problematique-Kelly-la-Solution.jpg";
+import photo2 from "../components/Photos/tondeuse.jpg";
 
 export default function SportField() {
     return (
@@ -13,6 +15,7 @@ export default function SportField() {
 
                 Sports fields (baseball, football, soccer, volleyball ...), green space, dog park, vineyard ... no matter           the nature of the ground, the soil is too compact.
 
+                <img src={photo1} alt="This is an image of the problem of a sports' field" />
 
                 <h3> SYMPTOMS </h3>
 
@@ -23,6 +26,8 @@ export default function SportField() {
                 <h3>THE SOLUTION</h3>
 
                 <p>Kelly La Solution Inc. owns an air-injection restoration technique to solve soil problems (including compaction). Specialist in aeration and defragmentation of all types of soils. Our technology is : economic, efficient, environmentally friendly and unique</p>
+
+                <img src={photo2} alt="This is an image of the lawn-mower" />
 
                 <h3>OPERATION</h3>
 
