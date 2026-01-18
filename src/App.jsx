@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Home from './components/Home';
 import Header from "./components/Header";
 import Footer from './components/Footer';
@@ -9,6 +7,7 @@ import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import SportField from './components/SportField';
 import PhotosVideos from './components/PhotosVideos';
+import FrenchDrain from './components/FrenchDrain';
 import './App.css'
 
 function App() {
@@ -19,6 +18,7 @@ function App() {
         <Header/>
         <main>
           <Routes>
+            <Route path='/' element={<FrenchDrain />} />
             <Route path='/' element={<Home />} />
             <Route path='/' element={<PhotosVideos />} />
             <Route path='/' element={<SportField />} />
