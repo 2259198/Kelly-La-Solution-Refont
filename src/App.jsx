@@ -19,11 +19,11 @@ function App() {
         <Header/>
         <main>
           <Routes>
+            <Route path='/' element={<Home />} />
             <Route path='/' element={<PhotosVideos />} />
             <Route path='/' element={<SportField />} />
             <Route path='/' element={<Contact />} />
             <Route path='/' element={<FAQ />} />
-            <Route path='/' element={<Home />} />
             <Route path='/' element={<Contact />} />
           </Routes>
         </main>
