@@ -9,6 +9,7 @@ import SportField from './components/SportField';
 import PhotosVideos from './components/PhotosVideos';
 import FrenchDrain from './components/FrenchDrain';
 import SpiralRake from './components/SpiralRake';
+import SepticSystem from './components/SepticSystem';
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Header/>
         <main>
           <Routes>
+            <Route path='/' element={<SepticSystem />} />
             <Route path='/' element={<SpiralRake />} />
             <Route path='/' element={<FrenchDrain />} />
             <Route path='/' element={<Home />} />
