@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.scss";
+import clients from "./Data/Clients";
 
 export default function Home() {
     return (
@@ -63,17 +64,15 @@ export default function Home() {
 
             <div className="clients-section">
                 <h1> Nous travaillons pour les particuliers, les villes, municipalités ... </h1>
+
                 <ul className="companies-list">
-                    <li>Premier Tech Aqua</li>
-                    <li>Municipalité de la Baie James</li>
-                    <li>Ville de L'Île Perrot </li>
-                    <li>Hydro-Québec</li>
-                    <li>Commission scolaire de la Rivière du Nord</li>
-                    <li>Parc Jean Drapeau de Montréal</li>
-                    <li>Municipalité de Pointe-Calumet</li>
-                    <li>Ville de Montréal</li>
-                    <li>Ville de Montréal Arrondissement de Pierrefonds-Roxboro</li>
-                    <li>Ville de Cookshire-Eaton</li>
+                    {
+                        clients.map((client, id) => (
+                            <li key={id}>{client.name}</li>
+                        ))
+
+                    }
+
                 </ul>
             </div>
 

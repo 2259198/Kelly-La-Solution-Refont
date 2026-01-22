@@ -20,10 +20,10 @@ function App() {
         <Header/>
         <main>
           <Routes>
+            <Route path='/' element={<Home />} />
             <Route path='/' element={<SepticSystem />} />
             <Route path='/' element={<SpiralRake />} />
             <Route path='/' element={<FrenchDrain />} />
-            <Route path='/' element={<Home />} />
             <Route path='/' element={<PhotosVideos />} />
             <Route path='/' element={<SportField />} />
             <Route path='/' element={<Contact />} />

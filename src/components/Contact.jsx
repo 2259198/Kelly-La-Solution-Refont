@@ -16,11 +16,7 @@ export default function Contact() {
 
             </div>
 
-
-
-
             <h2> Our members </h2>
-
             {
                 members.map((member) => {
                     return (
@@ -32,13 +28,8 @@ export default function Contact() {
 
                         </div>
                     );
-
-
-
                 })
             }
-
-
         </div>
     )
 }
