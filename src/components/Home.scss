@@ -1,4 +1,4 @@
-.Home{
+.Home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,19 +6,56 @@
     width: 100vw;
     padding: 1.5rem;
     text-align: center;
+    gap: 2rem;
 
-    .home-separator{
+    .home-separator {
         display: flex;
         justify-content: center;
         flex-direction: column;
         gap: 1.5rem;
     }
 
-    h1,h2{
+    .title{
+        font-size: clamp(1rem, 1vw, 1rem);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
         text-align: center;
+    }
+
+    p{
+        gap: 1rem;
+    }
+
+    .clients-section, .history-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        padding: 2.5rem;
+        border-radius: 25px;
+        gap: 1rem;
+        color: black;
+        text-align: left;
+        // font-size: clamp(1rem, 1vw, 1rem);
+
+        .companies-list{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2.5rem;
+        }
     }
 }
 
-.septic-field-list, .air-injection-list, .location-list, .french-drain-list, .solution-list{
+
+
+.septic-field-list,
+.air-injection-list,
+.location-list,
+.french-drain-list,
+.solution-list,
+.companies-list {
     list-style-type: none;
 }

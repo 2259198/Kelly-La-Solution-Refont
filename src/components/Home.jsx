@@ -5,8 +5,16 @@ import clients from "./Data/Clients";
 export default function Home() {
     return (
         <div className="Home">
+
+            <div className="history-section">
+                <h1 className="title"> HISTORIQUE </h1>
+
+                <p>Fondée en 2003 à l’Île Perrot, Kelly La Solution Inc. s’appuie sur plus de 50 ans d’expertise dans le domaine des fosses septiques. L’entreprise offre une gamme complète de services, dont le nettoyage de drains français, l’inspection par mini-caméra, l’installation et la réparation de systèmes, l’excavation ainsi que la vente et l’entretien de préfiltres. <br></br>Kelly La Solution se distingue surtout par son procédé exclusif au Québec de décompactage du sol, réalisé par injection d’air. Cette technique rapide et non invasive permet d’améliorer efficacement tous types de terrains, sans endommager la surface. <br></br> Face à son succès rapide, une franchise a vu le jour à Val-Bélair en 2005, permettant d’offrir ces services uniques à la grande région de Québec.</p>
+
+                {/* Pour joindre Kelly La Solution de Québec 418 842-3636 */}
+            </div>
             <div className="home-separator">
-                <h1> QUAND DEVRIEZ-VOUS COMMUNIQUER AVEC NOUS ? </h1>
+                <h1 className="title"> QUAND DEVRIEZ-VOUS COMMUNIQUER AVEC NOUS ? </h1>
 
                 <h2> FOSSE SEPTIQUE </h2>
 
@@ -54,19 +62,16 @@ export default function Home() {
 
             </div>
 
-            <div className="history-section">
-                <h1> HISTORIQUE </h1>
 
-                <p>Fondée à l’Île Perrot (ouest de l’Île de Montréal) en 2003, par Monsieur Mark Kelly qui compte à son actif plus de 50 années d’expériences dans le domaine des fosses septiques. Kelly La Solution Inc. offre différents services : nettoyage de drain français, inspection par mini-caméra,       vente et service de préfiltre, installation de nouveau système, excavation et réparations mais est reconnu     principalement pour leur procédé unique au Québec qui consiste à effectuer le décompactage du sol (champ d’épuration, terrain sportif : football, baseball, soccer, parc à chien ... bref tous les types de sol). Notre technique s'effectue simplement et rapidement par injection d’air, sans endommager la surface du terrain. Dès sa fondation, Kelly La Solution Inc. a connue un succès immédiat. Deux ans plus tard, soit en 2005 une franchise naissait à Val-Bélair, permettant ainsi aux gens de la grande région de Québec de pouvoir goûter à la qualité de nos services unique. </p>
-
-                {/* Pour joindre Kelly La Solution de Québec 418 842-3636 */}
-            </div>
 
             <div className="clients-section">
-                <h1> Nous travaillons pour les particuliers, les villes, municipalités ... </h1>
+                <h1 className="title"> Nous travaillons pour les particuliers, les villes, municipalités ... </h1>
 
                 <ul className="companies-list">
                     {
+
+                        // Add icons next to the name
+
                         clients.map((client, id) => (
                             <li key={id}>{client.name}</li>
                         ))
