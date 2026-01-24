@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Home",
+    "photos": "Photos",
+    "systems": "Systems",
+    "faq": "F.A.Q",
+    "contact": "Contact"
+  },
+  "contact": {
+    "title": "Our contact information",
+    "members": "Our members"
+  }
+}

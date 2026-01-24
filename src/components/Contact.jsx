@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useTransition } from "react";
 import "./Contact.scss";
 import members from "./Data/Members";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faPhone, faEnvelope, faE } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 
 
 export default function Contact() {
+
+    const {t} = useTranslation();
+
     return (
         <div className="Contact">
             <div className="contact-container">
-                <h1>Nos coordonnées pour nous rejoindre</h1>
+                <h1>{t("contact.title")}</h1>
                 {/* <h3>Nous offrons nos services partout dans la province du Québec</h3> */}
                 <div className="company-info">
                     <p> <FontAwesomeIcon icon={faHouse} /> 711 Route Harwood Suite 110 Vaudreuil-Dorion (Québec) J7V 8P2</p>
@@ -21,7 +25,7 @@ export default function Contact() {
             </div>
 
             <div className="members-section">
-                <h2> Our members </h2>
+                <h2> {t("contact.members")}</h2>
                 {
                     members.map((member) => {
                         return (
