@@ -2,17 +2,21 @@ import React from "react";
 import "./Contact.scss";
 import members from "./Data/Members";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse, faPhone, faEnvelope, faE } from "@fortawesome/free-solid-svg-icons";
+
+
 export default function Contact() {
     return (
         <div className="Contact">
             <div className="contact-container">
                 <h1>Nos coordonnées pour nous rejoindre</h1>
-                <h3>Nous offrons nos services partout dans la province du Québec</h3>
-
-                <p> Notre adresse : 711 Route Harwood Suite 110 Vaudreuil-Dorion (Québec) J7V 8P2</p>
-                <p> MONTRÉAL ET LES ENVIRONS</p>
-                <p> Notre numéro de téléphone : 514 425-3535 | Sans frais 1 877 858-3535 | 418 842-3636</p>
-                <p> Notre adresse courriel : info@kellylasolution.ca</p>
+                {/* <h3>Nous offrons nos services partout dans la province du Québec</h3> */}
+                <div className="company-info">
+                    <p> <FontAwesomeIcon icon={faHouse} /> 711 Route Harwood Suite 110 Vaudreuil-Dorion (Québec) J7V 8P2</p>
+                    <p> <FontAwesomeIcon icon={faPhone} /> 514 425-3535 | Sans frais 1 877 858-3535 | 418 842-3636</p>
+                    <p> <FontAwesomeIcon icon={faEnvelope} /> info@kellylasolution.ca</p>
+                </div>
 
             </div>
 
