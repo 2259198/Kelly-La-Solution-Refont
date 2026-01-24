@@ -24,11 +24,10 @@ function App() {
             <Route path='/' element={<SepticSystem />} />
             <Route path='/' element={<SpiralRake />} />
             <Route path='/' element={<FrenchDrain />} />
-            <Route path='/' element={<PhotosVideos />} />
+            <Route path='/Photos' element={<PhotosVideos />} />
             <Route path='/' element={<SportField />} />
-            <Route path='/' element={<Contact />} />
-            <Route path='/' element={<FAQ />} />
-            <Route path='/' element={<Contact />} />
+            <Route path='/FAQ' element={<FAQ />} />
+            <Route path='/Contact' element={<Contact />} />
           </Routes>
         </main>
         <Footer/>

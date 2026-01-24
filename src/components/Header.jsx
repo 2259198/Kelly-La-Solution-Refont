@@ -15,11 +15,11 @@ export default function Header() {
 
       {/* Navigation */}
       <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
-        <a href="#">Accueil</a>
-        <a href="#">Photos</a>
+        <a href="/">Accueil</a>
+        <a href="/Photos">Photos</a>
         <a href="#">Systèmes</a>
-        <a href="#">F.A.Q</a>
-        <a href="#">Nous joindre</a>
+        <a href="/FAQ">F.A.Q</a>
+        <a href="/Contact">Nous joindre</a>
       </nav>
     </header>
   );

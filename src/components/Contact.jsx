@@ -16,20 +16,23 @@ export default function Contact() {
 
             </div>
 
-            <h2> Our members </h2>
-            {
-                members.map((member) => {
-                    return (
-                        <div className="members">
-                            <img src={member.image} alt={member.imageDescription} />
-                            <h4>{member.name}</h4>
-                            <p>{member.role}</p>
-                            <a href="mark@kellylasolution.ca">{member.email}</a>
+            <div className="members-section">
+                <h2> Our members </h2>
+                {
+                    members.map((member) => {
+                        return (
+                            <div className="members">
+                                <img src={member.image} alt={member.imageDescription} />
+                                <h4>{member.name}</h4>
+                                <p>{member.role}</p>
+                                <a href="mark@kellylasolution.ca">{member.email}</a>
 
-                        </div>
-                    );
-                })
-            }
+                            </div>
+                        );
+                    })
+                }
+            </div>
+
         </div>
     )
 }
