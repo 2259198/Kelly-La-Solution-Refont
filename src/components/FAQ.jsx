@@ -4,20 +4,18 @@ import faq from "./Data/FAQ";
 import { useTranslation } from "react-i18next";
 
 export default function FAQ() {
-
-    const {t} = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <div className="FAQ">
-            <h1>F.A.Q</h1>
-
+            <h2>{t("nav.faq")}</h2>
             <div className="questions-wrapper">
                 {faq.map((question, index) => (
                     <div className="questions" key={index}>
                         <h4>{t("questions.title-question")}</h4>
-                        <p>{question.question}</p>
+                        <p className="question-text">{t(question.question)}</p>
                         <h4>{t("questions.title-answer")}</h4>
-                        <p>{question.answer}</p>
+                        <p className="answer-text">{t(question.answer)}</p>
                     </div>
                 ))}
             </div>

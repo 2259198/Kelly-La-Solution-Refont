@@ -10,14 +10,54 @@
     "title": "Our contact information",
     "members": "Our members"
   },
-  "photos":{
-    "title-photos" : "Photos",
+  "photos": {
+    "title-photos": "Photos",
     "title-videos": "Videos"
   },
-  "questions":{
-    "title-question":"Question",
+  "questions": {
+    "title-question": "Question",
     "title-answer": "Answer"
+  },
+  "faq": {
+    "q1": {
+      "question": "How can I locate my septic system for a pool permit?",
+      "answer": "We use a pipe detector to locate your drain field, allowing you to proceed with your permit application."
+    },
+    "q2": {
+      "question": "Do you cover my area?",
+      "answer": "We offer our services throughout Quebec. Based in Vaudreuil-Dorion with a branch in Quebec City, we've worked from Gaspésie to Baie-James."
+    },
+    "q3": {
+      "question": "What services do you offer?",
+      "answer": "Soil aeration, repairs, excavation, installation, mini-camera inspection, raising, pre-filter, pumping and French drain cleaning. We are THE reference except for emptying and soil testing."
+    },
+    "q4": {
+      "question": "When is the best time for work?",
+      "answer": "We are closed from mid-December to mid-April. Contact us as soon as possible to get on our waiting list."
+    },
+    "q5": {
+      "question": "My system is clogged, what should I do?",
+      "answer": "We specialize in solving drainage problems through air injection to restore your drain field to optimal performance."
+    },
+    "q6": {
+      "question": "How long does a repair take?",
+      "answer": "On average 4 to 8 hours. Most repairs are completed the same day."
+    },
+    "q7": {
+      "question": "Will the ground be damaged?",
+      "answer": "Holes of 3 cm in diameter every 3 square feet will appear on the surface, but will disappear within a few days."
+    },
+    "q8": {
+      "question": "Is it harmful to the environment?",
+      "answer": "Not at all! Our aeration technique simply allows your drain field to function as originally designed."
+    },
+    "q9": {
+      "question": "How do I check if my system has a problem?",
+      "answer": "Check the water level in the septic tank (should be below the pipe), look for paper blockages, and inspect your field for surface water."
+    },
+    "q10": {
+      "question": "Can I connect my water softener to the system?",
+      "answer": "No. This creates deposits in the septic tank and generates excessive water surplus."
+    }
   }
-
-
 }

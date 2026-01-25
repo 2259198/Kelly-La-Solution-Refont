@@ -3,7 +3,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color:#1C2B1F;
+    background-color: #1C2B1F;
     padding: 1.7rem;
     margin-top: 1rem;
     text-align: center;
@@ -15,7 +15,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+
+        .company-information {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+        }
 
         ul {
             display: flex;
@@ -27,4 +33,17 @@
             }
         }
     }
+}
+
+@media (min-width:768px) {
+    .footer {
+        .elements {
+
+            .company-information {
+                gap: 1rem;
+                flex-direction: row;
+            }
+        }
+    }
+
 }
