@@ -9,5 +9,11 @@
   "contact": {
     "title": "Our contact information",
     "members": "Our members"
+  },
+  "questions":{
+    "title-question":"Question",
+    "title-answer": "Answer"
   }
+
+
 }
