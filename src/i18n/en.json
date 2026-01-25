@@ -10,6 +10,10 @@
     "title": "Our contact information",
     "members": "Our members"
   },
+  "photos":{
+    "title-photos" : "Photos",
+    "title-videos": "Videos"
+  },
   "questions":{
     "title-question":"Question",
     "title-answer": "Answer"

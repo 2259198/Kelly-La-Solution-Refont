@@ -10,6 +10,10 @@
     "title": "Nos coordonnées pour nous rejoindre",
     "members": "Nos membres"
   },
+  "photos": {
+    "title-photos": "Photos",
+    "title-videos": "Vidéos"
+  },
   "questions": {
     "title-question": "Question",
     "title-answer": "Réponse"

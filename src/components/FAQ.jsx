@@ -9,7 +9,7 @@ export default function FAQ() {
 
     return (
         <div className="FAQ">
-            <h2>English below</h2>
+            <h1>F.A.Q</h1>
 
             <div className="questions-wrapper">
                 {faq.map((question, index) => (
