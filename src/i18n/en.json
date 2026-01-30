@@ -59,5 +59,8 @@
       "question": "Can I connect my water softener to the system?",
       "answer": "No. This creates deposits in the septic tank and generates excessive water surplus."
     }
+  },
+  "septic-field":{
+    "problems" : "PROBLEMS OF DRAINAGE (SEPTIC FIELD)"
   }
 }

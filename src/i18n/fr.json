@@ -58,6 +58,9 @@
     "q10": {
       "question": "Puis-je connecter mon adoucisseur d'eau au système ?",
       "answer": "Non. Cela crée des dépôts dans la fosse septique et génère un surplus d'eau excessif."
+    },
+    "septic-field": {
+      "problems": "PROBLEMS OF DRAINAGE (SEPTIC FIELD)"
     }
   }
 }
