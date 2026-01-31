@@ -23,27 +23,27 @@ export default function Home() {
 
                 <ul className="septic-field-list">
 
-                    <li>Champ d'épuration</li>
-                    <li>Besoin de changer la fosse septique peu importe la grandeur, en plastique ou en ciment ...</li>
-                    <li>Couvercle (réparation ou achat)</li>
-                    <li>Rehaussement du couvercle (cheminée)</li>
-                    <li>Préfiltre</li>
+                    {t("home.skeptic-list", {returnObjects : true}).map((item, index) => (
+                        <li key={index}>{item}</li>
+                    ))}
 
                 </ul>
 
                 <h2> {t("home.air-injection-title")} </h2>
 
                 <ul className="air-injection-list">
-                    <li>Terrain sportif (baseball, soccer, football, volleyball ...)</li>
-                    <li>Parc à chiens, vignoble, espace vert ... etc.</li>
+                    {t("home.air-injection-list", {returnObjects : true}).map((item, index) => (
+                        <li key={index}>{item}</li>
+                    ))}
                 </ul>
 
 
                 <h2> {t("home.localisation-title")} </h2>
 
                 <ul className="location-list">
-                    <li>Agrandissement de la propriété</li>
-                    <li>Installation piscine, cabanon</li>
+                    {t("home.locatisation-list", {returnObjects : true}).map((item, index) =>(
+                        <li key={index}>{item}</li>
+                    ))}
                 </ul>
 
 

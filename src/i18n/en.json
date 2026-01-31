@@ -11,8 +11,23 @@
     "history-text": "",
     "when-title": "",
     "skeptic-title" :"Skeptic",
-    "air-injection-title" : "",
+    "skeptic-list" : [
+      "Field",
+      "Change",
+      "Repair",
+      "Chimine",
+      "Prefilter"
+    ],
+    "air-injection-title" : "Air injection",
+    "air-injection-list": [
+      "Sport's field",
+      "Parcs"
+    ],
     "localisation-title" : "Location",
+    "locatisation-list" : [
+      "Bigger",
+      "Pool"
+    ],
     "french-drain-title" : "French Drain ",
     "french-drain-list" : [
       "Clean up",
