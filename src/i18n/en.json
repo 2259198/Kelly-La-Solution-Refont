@@ -42,6 +42,25 @@
     ],
     "companies-title": "We work for "
   },
+  "septic-system":{
+    "problems-drainage-title" : "PROBLEMS OF DRAINAGE (SEPTIC FIELD)",
+    "leach-field-title" : "LEACH FIELD",
+    "problem-title" : "THE PROBLEM",
+    "problem-list" : [
+        "Smells outside",
+        "Following heavy rain or snow melt the ground remains spongy (like a sponge)",
+        "The water level in the septic tank is higher than normal sometimes overflowed by the lids",
+        "When emptying the septic tank there is water backing up from the septic field",
+        "The ground is soaked so much that you can not mow the lawn"
+        
+    ],
+    "solution-title" : "THE SOLUTION",
+    "how-it-works-title" : "HOW IT WORKS",
+    "high-pressure-title" : "High pressure pipe cleaning",
+    "prefilter-title" : "PREFILTER",
+    "excavation-title" : "EXCAVATION ET REPAIR",
+    "location-title" : "LOCATION"
+  },
   "contact": {
     "title": "Our contact information",
     "members": "Our members"

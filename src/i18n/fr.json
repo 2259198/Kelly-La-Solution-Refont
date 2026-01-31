@@ -42,6 +42,25 @@
     ],
     "companies-title": "Nous travaillons pour les particuliers, les villes, municipalités ... "
   },
+  "septic-system":{
+    "problems-drainage-title" : "Problèmes de drainage",
+    "leach-field-title" : "Terrain",
+    "problem-title" : "Le problème",
+    "problem-list" : [
+        "Pue",
+        "Pluie forte",
+        "Niveau d'eau",
+        "Quand on vide",
+        "Par terre"
+        
+    ],
+    "solution-title" : "La solution",
+    "how-it-works-title" : "Comment ça marche?",
+    "high-pressure-title" : "Grosse pression",
+    "prefilter-title" : "Prefiltre",
+    "excavation-title" : "Excavation",
+    "location-title" : "Localisation"
+  },
   "contact": {
     "title": "Nos coordonnées pour nous rejoindre",
     "members": "Nos membres"
