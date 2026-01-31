@@ -50,18 +50,19 @@ export default function Home() {
                 <h2> {t("home.french-drain-title")} </h2>
 
                 <ul className="french-drain-list">
-                    <li> Nettoyage des drains français </li>
-                    <li> Installation d'un regard pour facilité l'accès et le nettoyage des drains français </li>
-                    <li> Passer la mini-caméra (avec rapport sur DVD) </li>
+                    {t("home.french-drain-list", { returnObjects: true }).map((item, index) => (
+                        <li key={index}>{item}</li>
+                    ))}
                 </ul>
 
                 <h2> {t("home.solution-title")} </h2>
 
                 <ul className="solution-list">
-                    <li> Rapide </li>
-                    <li> Économique </li>
-                    <li> Garantie </li>
+                    {t("home.solutions", { returnObjects: true }).map((item, index) => (
+                        <li key={index}>{item}</li>
+                    ))}
                 </ul>
+
 
             </div>
 

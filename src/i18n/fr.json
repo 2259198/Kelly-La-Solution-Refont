@@ -14,9 +14,18 @@
     "air-injection-title" : "DÉCOMPACTION PAR INJECTION D'AIR",
     "localisation-title" : "Localisation",
     "french-drain-title" : "DRAIN FRANÇAIS ",
+    "french-drain-list" : [
+      "Nettoyage des drains français",
+      "Installation d'un regard pour facilité l'accès et le nettoyage des drains français",
+      "Passer la mini-caméra (avec rapport sur DVD)"
+    ],
     "solution-title" : "NOTRE SOLUTION EST À LA FOIS ",
+    "solutions" : [
+      "Rapide",
+      "Économique",
+      "Garantie"
+    ],
     "companies-title": "Nous travaillons pour les particuliers, les villes, municipalités ... "
-  
   },
   "contact": {
     "title": "Nos coordonnées pour nous rejoindre",

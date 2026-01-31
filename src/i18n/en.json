@@ -10,10 +10,21 @@
     "history-title" : "History",
     "history-text": "",
     "when-title": "",
+    "skeptic-title" :"Skeptic",
     "air-injection-title" : "",
     "localisation-title" : "Location",
     "french-drain-title" : "French Drain ",
+    "french-drain-list" : [
+      "Clean up",
+      "Installation",
+      "Mini-camera"
+    ],
     "solution-title" : "Our solution ",
+    "solutions" : [
+      "Fast",
+      "Cheap",
+      "Guarantee"
+    ],
     "companies-title": "We work for "
   },
   "contact": {
