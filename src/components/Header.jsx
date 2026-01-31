@@ -22,7 +22,7 @@ export default function Header() {
       <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
         <a href="/">{t("nav.home")}</a>
         <a href="/Photos">{t("nav.photos")}</a>
-        <a href="#">{t("nav.systems")}</a>
+        <a href="/Systems">{t("nav.systems")}</a>
         <a href="/FAQ">{t("nav.faq")}</a>
         <a href="/Contact">{t("nav.contact")}</a>
 

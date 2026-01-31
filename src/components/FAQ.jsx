@@ -2,6 +2,8 @@ import React from "react";
 import "./FAQ.scss";
 import faq from "./Data/FAQ";
 import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuestion, faComment } from "@fortawesome/free-solid-svg-icons";
 
 export default function FAQ() {
     const { t } = useTranslation();
@@ -12,9 +14,9 @@ export default function FAQ() {
             <div className="questions-wrapper">
                 {faq.map((question, index) => (
                     <div className="questions" key={index}>
-                        <h4>{t("questions.title-question")}</h4>
+                        <h4>{/*{t("questions.title-question")}*/} <FontAwesomeIcon icon={faQuestion} /></h4>
                         <p className="question-text">{t(question.question)}</p>
-                        <h4>{t("questions.title-answer")}</h4>
+                        <h4>{/*{t("questions.title-answer")}*/} <FontAwesomeIcon icon={faComment} /></h4>
                         <p className="answer-text">{t(question.answer)}</p>
                     </div>
                 ))}
