@@ -6,6 +6,16 @@
     "faq": "F.A.Q",
     "contact": "Contact"
   },
+  "home":{
+    "history-title" : "History",
+    "history-text": "",
+    "when-title": "",
+    "air-injection-title" : "",
+    "localisation-title" : "Location",
+    "french-drain-title" : "French Drain ",
+    "solution-title" : "Our solution ",
+    "companies-title": "We work for "
+  },
   "contact": {
     "title": "Our contact information",
     "members": "Our members"

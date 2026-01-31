@@ -6,6 +6,18 @@
     "faq": "F.A.Q",
     "contact": "Nous joindre"
   },
+  "home":{
+    "history-title" : "Historique",
+    "history-text": "Fondée en 2003 à l’Île Perrot, Kelly La Solution Inc. s’appuie sur plus de 50 ans d’expertise dans le domaine des fosses septiques. L’entreprise offre une gamme complète de services, dont le nettoyage de drains français, l’inspection par mini-caméra, l’installation et la réparation de systèmes, l’excavation ainsi que la vente et l’entretien de préfiltres. Kelly La Solution se distingue surtout par son procédé exclusif au Québec de décompactage du sol, réalisé par injection d’air. Cette technique rapide et non invasive permet d’améliorer efficacement tous types de terrains, sans endommager la surface. Face à son succès rapide, une franchise a vu le jour à Val-Bélair en 2005, permettant d’offrir ces services uniques à la grande région de Québec.",
+    "when-title": "Quand devriez-vous communiquer avec nous ?",
+    "skeptic-title" :"FOSSE SEPTIQUE ",
+    "air-injection-title" : "DÉCOMPACTION PAR INJECTION D'AIR",
+    "localisation-title" : "Localisation",
+    "french-drain-title" : "DRAIN FRANÇAIS ",
+    "solution-title" : "NOTRE SOLUTION EST À LA FOIS ",
+    "companies-title": "Nous travaillons pour les particuliers, les villes, municipalités ... "
+  
+  },
   "contact": {
     "title": "Nos coordonnées pour nous rejoindre",
     "members": "Nos membres"
