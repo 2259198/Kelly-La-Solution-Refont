@@ -4,8 +4,16 @@
     align-items: center;
     flex-direction: column;
     gap: 2rem;
+    width: 100vw;
+    padding: 2rem;
 
-    .leach-field {
+    .leach-field,
+    .solution-drainage,
+    .how-it-works,
+    .high-pressure-pipe,
+    .prefilter,
+    .excation-repair,
+    .location-septic-system {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -14,67 +22,35 @@
         color: black;
         padding: 2rem;
         border-radius: 20px;
-    }
-    .symptoms-drainage-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: white;
-        color: black;
-    }
-    .solution-drainage {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: white;
-        color: black;
-    }
-    .how-it-works {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: white;
-        color: black;
-    }
-    .high-pressure-pipe {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: white;
-        color: black;
-        img{
-            max-width: 320px;
+        gap: 2rem;
+        font-size: clamp(0.95rem, 1vw, 1rem);
+
+        h1 {
+            font-size: clamp(1.5rem, 1vw, 1rem);
+        }
+
+        .symptoms-drainage-list, .excation-repair {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: white;
+            color: black;
+            text-align: left;
+            gap: 1rem;
         }
     }
-    .prefilter {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: white;
-        color: black;
-        img{
-            max-width: 320px;
+
+    .symptoms-drainage-list, .excation-repair{
+        li{
+            list-style-type: none;
         }
     }
+
+    .high-pressure-pipe,
+    .prefilter,
     .excation-repair {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: white;
-        color: black;
-    }
-    .location-septic-system {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: white;
-        color: black;
+        img {
+            max-width: 200px;
+        }
     }
 }

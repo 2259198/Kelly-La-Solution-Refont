@@ -8,79 +8,77 @@
   },
   "home": {
     "history-title": "History",
-    "history-text": "",
-    "when-title": "",
-    "skeptic-title": "Skeptic",
+    "history-text": "Founded in 2003 in Île Perrot, Kelly La Solution Inc. is built on over 50 years of expertise in septic systems. The company offers complete services including French drain cleaning, mini-camera inspections, system installation and repair, excavation, and prefilter sales and maintenance. Kelly La Solution stands out for its exclusive soil decompaction process using air injection, a fast and non-invasive method that improves all types of soil without damaging the surface. Due to its success, a franchise opened in Val-Bélair in 2005 to serve the greater Quebec City area.",
+    "when-title": "When should you contact us?",
+    "skeptic-title": "SEPTIC SYSTEM",
     "skeptic-list": [
-      "Field",
-      "Change",
-      "Repair",
-      "Chimine",
+      "Drain field",
+      "Septic tank replacement (plastic or concrete)",
+      "Lid repair or replacement",
+      "Lid extension (chimney)",
       "Prefilter"
     ],
-    "air-injection-title": "Air injection",
+    "air-injection-title": "AIR INJECTION DECOMPACTION",
     "air-injection-list": [
-      "Sport's field",
-      "Parcs"
+      "Sports fields (baseball, soccer, football, volleyball)",
+      "Dog parks, vineyards, green spaces"
     ],
     "localisation-title": "Location",
     "locatisation-list": [
-      "Bigger",
-      "Pool"
+      "Property expansion",
+      "Pool or shed installation"
     ],
-    "french-drain-title": "French Drain ",
+    "french-drain-title": "FRENCH DRAIN",
     "french-drain-list": [
-      "Clean up",
-      "Installation",
-      "Mini-camera"
+      "French drain cleaning",
+      "Access pit installation for easier maintenance",
+      "Mini-camera inspection with report"
     ],
-    "solution-title": "Our solution ",
+    "solution-title": "OUR SOLUTION IS",
     "solutions": [
       "Fast",
-      "Cheap",
-      "Guarantee"
+      "Cost-effective",
+      "Guaranteed"
     ],
-    "companies-title": "We work for "
+    "companies-title": "We work with homeowners, cities, and municipalities"
   },
   "septic-system": {
-    "problems-drainage-title": "PROBLEMS OF DRAINAGE (SEPTIC FIELD)",
+    "problems-drainage-title": "DRAINAGE PROBLEMS",
     "leach-field-title": "LEACH FIELD",
-    "leach-field-text": "Specialist in the aeration and defragmentation of the soil by an innovative technology in the restoration of septic fields.  Our technoclogy is : economic, efficient, respectful of the environment and unique.",
-    "problem-text": "Your septic system does not seem to work properly anymore Sewage water on the surface of the grass; often and especially during washings The water of the toilet goes up or down very slowly 'gargoyle' in the bathroom sink",
+    "leach-field-text": "Specialists in soil aeration and decompaction using innovative air-injection technology to restore septic fields efficiently and sustainably.",
     "problem-title": "THE PROBLEM",
+    "problem-text": "A failing septic system can cause surface water, slow drainage, odors, or backups inside the house.",
     "problem-list": [
-      "Smells outside",
-      "Following heavy rain or snow melt the ground remains spongy (like a sponge)",
-      "The water level in the septic tank is higher than normal sometimes overflowed by the lids",
-      "When emptying the septic tank there is water backing up from the septic field",
-      "The ground is soaked so much that you can not mow the lawn"
+      "Odors outdoors",
+      "Spongy ground after rain or snowmelt",
+      "High water level in the septic tank",
+      "Water backing up during pumping",
+      "Saturated ground impossible to mow"
     ],
     "solution-title": "THE SOLUTION",
-    "solution-text" : "Kelly La Solution Inc. owns the restoration technique to solve many soil problems including compaction and saturation of septic field. To rejuvenate quickly years can be added to yousystem without destroying your landscaping.",
+    "solution-text": "Kelly La Solution Inc. uses an exclusive restoration method that resolves soil compaction and saturation, extending the life of your septic system without damaging landscaping.",
     "how-it-works-title": "HOW IT WORKS",
-    "how-it-works-subtitle": "Aeration of the leaching field",
-    "how-it-works-text" : "Kelly La Solution Inc. will first locate the field then insert a 3 cm probe into the ground using a pneumatic hammer at a depth between 1 to 2 meters depending on the depth of the pipes in the field. Using a high-pressure compressor, the air is injected as a shot of dynamite which at the same time decolour the stone under the pipes and the earth walls, on each side of the field. The surface of the ground will move about 3 meters in diameter without damaging the ground. The air goes into all the cracks of the earth which will produce a vertical and horizontal passage to water and air. This solution is repeated every 1.5m according to the soil condition.", 
-    "high-pressure-title": "High pressure pipe cleaning",
+    "how-it-works-text": "After locating the drain field, a probe is inserted 1–2 meters into the soil. High-pressure air is injected to create pathways for water and oxygen, restoring proper drainage. The process is repeated across the field based on soil conditions.",
+    "high-pressure-title": "HIGH-PRESSURE CLEANING",
     "prefilter-title": "PREFILTER",
-    "prefilter-text": "Pre-filters prevent clogging in the septic field.  IMPORTANT regular maintenance or cleaning should be done regularly.",
-    "prefilter-text-under-pic": "The prefilter improves the quality of the effluent from the septic tank. Suspended solids and grease are retained by the prefilter, which delays clogging and increases its life. Depending on the daily flow, it's possible to use more than one prefilter in the same installation. We offer the cleaning service according to YOUR needs: every month, 3 months, 6 months, 12 months etc ...",    
-    "excavation-title": "EXCAVATION ET REPAIR",
-    "excavation-subtitle": "Mini-Excavation- To avoid digging the lids we install liner risers (chimneys) ",
+    "prefilter-text": "Prefilters prevent solids from clogging the drain field and require regular maintenance.",
+    "prefilter-text-under-pic": "Prefilters retain grease and suspended solids, extending system life. Cleaning frequency can be adapted to your needs.",
+    "excavation-title": "EXCAVATION & REPAIR",
+    "excavation-subtitle": "Mini-excavation and chimney installation to avoid unnecessary digging",
     "excavation-list": [
-      "Obstruction in the pipes = pressure cleaning",
-      "Roots, tree nearby = we dig, replace pipe, cut the roots ...",
-      "Diagnose the problem (bad drainage, breakage ...) = camera",
-      "Pipe crushed or damaged = replace the pipes",
-      "Cracked or damaged cover = we replace it",
-      "Smell problem = smoke test"
+      "Pipe blockages cleaned under pressure",
+      "Root intrusion repair",
+      "Camera inspection diagnostics",
+      "Damaged pipe replacement",
+      "Lid replacement",
+      "Odor detection with smoke testing"
     ],
-    
-    "location-title": "Location",
-    "location-text": "Whether if you need a permit for the installation of a swimming pool, a project to expand your property, the construction of a garage, a shed ... we can help you and your project can be realized quickly. Keep in mind taht the first thing your city, town, village ... will ask you in order to process your request for a permit is to provide them the location of your septic system. No matter the age of the system we are able to locate the septic system."
+    "location-title": "LOCATION",
+    "location-text": "We locate septic systems for permits related to pools, property expansion, garages, or sheds—regardless of system age."
   },
   "contact": {
-    "title": "Our contact information",
-    "members": "Our members"
+    "title": "Contact Information",
+    "members": "Our Team"
   },
   "photos": {
     "title-photos": "Photos",
@@ -93,43 +91,43 @@
   "faq": {
     "q1": {
       "question": "How can I locate my septic system for a pool permit?",
-      "answer": "We use a pipe detector to locate your drain field, allowing you to proceed with your permit application."
+      "answer": "We use a pipe detector to locate your drain field so you can proceed with your permit application."
     },
     "q2": {
-      "question": "Do you cover my area?",
-      "answer": "We offer our services throughout Quebec. Based in Vaudreuil-Dorion with a branch in Quebec City, we've worked from Gaspésie to Baie-James."
+      "question": "Do you serve my area?",
+      "answer": "Yes. We operate across Quebec, from Gaspésie to Baie-James."
     },
     "q3": {
       "question": "What services do you offer?",
-      "answer": "Soil aeration, repairs, excavation, installation, mini-camera inspection, raising, pre-filter, pumping and French drain cleaning. We are THE reference except for emptying and soil testing."
+      "answer": "Soil aeration, repairs, excavation, installation, inspections, prefilters, and French drain cleaning."
     },
     "q4": {
       "question": "When is the best time for work?",
-      "answer": "We are closed from mid-December to mid-April. Contact us as soon as possible to get on our waiting list."
+      "answer": "We operate from mid-April to mid-December. Contact us early to reserve."
     },
     "q5": {
-      "question": "My system is clogged, what should I do?",
-      "answer": "We specialize in solving drainage problems through air injection to restore your drain field to optimal performance."
+      "question": "My system is clogged—what should I do?",
+      "answer": "We restore drainage performance using air-injection technology."
     },
     "q6": {
       "question": "How long does a repair take?",
-      "answer": "On average 4 to 8 hours. Most repairs are completed the same day."
+      "answer": "Most repairs take 4–8 hours and are completed the same day."
     },
     "q7": {
       "question": "Will the ground be damaged?",
-      "answer": "Holes of 3 cm in diameter every 3 square feet will appear on the surface, but will disappear within a few days."
+      "answer": "Small holes appear temporarily and disappear within days."
     },
     "q8": {
-      "question": "Is it harmful to the environment?",
-      "answer": "Not at all! Our aeration technique simply allows your drain field to function as originally designed."
+      "question": "Is the process environmentally safe?",
+      "answer": "Yes. It restores your system to its original function."
     },
     "q9": {
-      "question": "How do I check if my system has a problem?",
-      "answer": "Check the water level in the septic tank (should be below the pipe), look for paper blockages, and inspect your field for surface water."
+      "question": "How can I tell if my system has a problem?",
+      "answer": "Check water levels, blockages, and surface water on the field."
     },
     "q10": {
-      "question": "Can I connect my water softener to the system?",
-      "answer": "No. This creates deposits in the septic tank and generates excessive water surplus."
+      "question": "Can I connect a water softener to my system?",
+      "answer": "No. It creates buildup and excess water in the septic system."
     }
   },
   "septic-field": {

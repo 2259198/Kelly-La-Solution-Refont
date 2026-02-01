@@ -8,78 +8,77 @@
   },
   "home": {
     "history-title": "Historique",
-    "history-text": "Fondée en 2003 à l’Île Perrot, Kelly La Solution Inc. s’appuie sur plus de 50 ans d’expertise dans le domaine des fosses septiques. L’entreprise offre une gamme complète de services, dont le nettoyage de drains français, l’inspection par mini-caméra, l’installation et la réparation de systèmes, l’excavation ainsi que la vente et l’entretien de préfiltres. Kelly La Solution se distingue surtout par son procédé exclusif au Québec de décompactage du sol, réalisé par injection d’air. Cette technique rapide et non invasive permet d’améliorer efficacement tous types de terrains, sans endommager la surface. Face à son succès rapide, une franchise a vu le jour à Val-Bélair en 2005, permettant d’offrir ces services uniques à la grande région de Québec.",
+    "history-text": "Fondée en 2003 à l’Île-Perrot, Kelly La Solution Inc. repose sur plus de 50 ans d’expertise en systèmes septiques. L’entreprise offre des services complets : nettoyage de drains français, inspection par mini-caméra, installation et réparation de systèmes, excavation ainsi que vente et entretien de préfiltres. Elle se distingue par un procédé exclusif au Québec de décompaction du sol par injection d’air, une méthode rapide, efficace et non invasive. En raison de son succès, une franchise a ouvert à Val-Bélair en 2005 pour desservir la grande région de Québec.",
     "when-title": "Quand devriez-vous communiquer avec nous ?",
-    "skeptic-title": "FOSSE SEPTIQUE ",
+    "skeptic-title": "FOSSE SEPTIQUE",
     "skeptic-list": [
-      "Champ d'épuration",
-      "Besoin de changer la fosse septique peu importe la grandeur, en plastique ou en ciment ...",
-      "Couvercle (réparation ou achat)",
+      "Champ d’épuration",
+      "Remplacement de fosse septique (plastique ou béton)",
+      "Réparation ou remplacement du couvercle",
       "Rehaussement du couvercle (cheminée)",
       "Préfiltre"
     ],
-    "air-injection-title": "DÉCOMPACTION PAR INJECTION D'AIR",
+    "air-injection-title": "DÉCOMPACTION PAR INJECTION D’AIR",
     "air-injection-list": [
-      "Terrain sportif (baseball, soccer, football, volleyball ...)",
-      "Parc à chiens, vignoble, espace vert ... etc."
+      "Terrains sportifs (baseball, soccer, football, volleyball)",
+      "Parcs à chiens, vignobles et espaces verts"
     ],
     "localisation-title": "Localisation",
     "locatisation-list": [
-      "Agrandissement de la propriété",
-      "Installation piscine, cabanon"
+      "Agrandissement de propriété",
+      "Installation de piscine ou cabanon"
     ],
-    "french-drain-title": "DRAIN FRANÇAIS ",
+    "french-drain-title": "DRAIN FRANÇAIS",
     "french-drain-list": [
-      "Nettoyage des drains français",
-      "Installation d'un regard pour facilité l'accès et le nettoyage des drains français",
-      "Passer la mini-caméra (avec rapport sur DVD)"
+      "Nettoyage de drains français",
+      "Installation d’un regard pour faciliter l’entretien",
+      "Inspection par mini-caméra avec rapport"
     ],
-    "solution-title": "NOTRE SOLUTION EST À LA FOIS ",
+    "solution-title": "NOTRE SOLUTION EST",
     "solutions": [
       "Rapide",
       "Économique",
       "Garantie"
     ],
-    "companies-title": "Nous travaillons pour les particuliers, les villes, municipalités ... "
+    "companies-title": "Nous travaillons pour les particuliers, les villes et les municipalités"
   },
   "septic-system": {
-    "problems-drainage-title": "Problèmes de drainage",
-    "leach-field-title": "Terrain",
-    "leach-field-text": "",
-    "problem-text": "",
-    "problem-title": "Le problème",
+    "problems-drainage-title": "PROBLÈMES DE DRAINAGE",
+    "leach-field-title": "CHAMP D’ÉPURATION",
+    "leach-field-text": "Spécialistes en aération et décompaction du sol par injection d’air afin de restaurer efficacement les champs d’épuration.",
+    "problem-title": "LE PROBLÈME",
+    "problem-text": "Un système septique défaillant peut provoquer des odeurs, une mauvaise évacuation de l’eau ou des refoulements.",
     "problem-list": [
-      "Pue",
-      "Pluie forte",
-      "Niveau d'eau",
-      "Quand on vide",
-      "Par terre"
+      "Mauvaises odeurs à l’extérieur",
+      "Sol spongieux après de fortes pluies",
+      "Niveau d’eau anormalement élevé dans la fosse",
+      "Refoulement lors de la vidange",
+      "Terrain saturé impossible à tondre"
     ],
-    "solution-title": "La solution",
-    "solution-text": "",
-    "how-it-works-title": "Comment ça marche?",
-    "how-it-works-subtitle": "",
-    "how-it-works-text": "",
-    "high-pressure-title": "Grosse pression",
-    "prefilter-title": "Prefiltre",
-    "prefilter-text": "",
-    "prefilter-text-under-pic": "",
-    "excavation-title": "Excavation",
-    "excavation-subtitle": "",
+    "solution-title": "LA SOLUTION",
+    "solution-text": "Kelly La Solution Inc. utilise une technique exclusive qui corrige la compaction et la saturation du sol, prolongeant la durée de vie du système sans endommager l’aménagement paysager.",
+    "how-it-works-title": "COMMENT ÇA FONCTIONNE",
+    "how-it-works-text": "Après avoir localisé le champ d’épuration, une sonde est insérée entre 1 et 2 mètres de profondeur. L’air est injecté sous haute pression afin de créer des voies de passage pour l’eau et l’oxygène, restaurant ainsi le drainage naturel.",
+    "high-pressure-title": "NETTOYAGE À HAUTE PRESSION",
+    "prefilter-title": "PRÉFILTRE",
+    "prefilter-text": "Les préfiltres empêchent les solides de colmater le champ d’épuration et nécessitent un entretien régulier.",
+    "prefilter-text-under-pic": "Ils retiennent les graisses et matières en suspension, améliorant la qualité de l’effluent et prolongeant la durée de vie du système.",
+    "excavation-title": "EXCAVATION ET RÉPARATION",
+    "excavation-subtitle": "Mini-excavation et installation de cheminées pour éviter les excavations majeures",
     "excavation-list": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Nettoyage des conduites obstruées",
+      "Réparation de dommages causés par les racines",
+      "Diagnostic par caméra",
+      "Remplacement de conduites endommagées",
+      "Remplacement de couvercles",
+      "Détection d’odeurs par test de fumée"
     ],
-    "location-title": "Localisation",
-    "location-text": ""
+    "location-title": "LOCALISATION",
+    "location-text": "Nous localisons votre système septique pour les permis de piscine, d’agrandissement ou de construction, peu importe son âge."
   },
   "contact": {
-    "title": "Nos coordonnées pour nous rejoindre",
-    "members": "Nos membres"
+    "title": "Nos coordonnées",
+    "members": "Notre équipe"
   },
   "photos": {
     "title-photos": "Photos",
@@ -92,46 +91,46 @@
   "faq": {
     "q1": {
       "question": "Comment localiser mon système septique pour un permis de piscine ?",
-      "answer": "Nous utilisons un détecteur de conduites pour localiser votre champ d'épuration, vous permettant ensuite de procéder à votre demande de permis."
+      "answer": "Nous utilisons un détecteur de conduites pour localiser votre champ d’épuration."
     },
     "q2": {
       "question": "Couvrez-vous ma région ?",
-      "answer": "Nous offrons nos services partout au Québec. Basés à Vaudreuil-Dorion avec une filiale à Québec, nous avons travaillé de la Gaspésie à Baie-James."
+      "answer": "Oui, nous desservons l’ensemble du Québec."
     },
     "q3": {
       "question": "Quels services offrez-vous ?",
-      "answer": "Aération de sol, réparation, excavation, installation, mini-caméra d'inspection, rehaussement, préfiltre, pompage et nettoyage de drains français. Nous sommes LA référence sauf pour vidange et tests de sol."
+      "answer": "Aération du sol, réparation, excavation, installation, inspection par caméra, préfiltres et nettoyage de drains français."
     },
     "q4": {
       "question": "Quel est le meilleur moment pour les travaux ?",
-      "answer": "Nous sommes fermés de mi-décembre à mi-avril. Contactez-nous dès que possible pour vous inscrire sur notre liste d'attente."
+      "answer": "Nous opérons de mi-avril à mi-décembre. Contactez-nous rapidement pour réserver."
     },
     "q5": {
       "question": "Mon système est colmaté, que faire ?",
-      "answer": "Nous sommes spécialistes en résolution de problèmes de drainage par injection d'air pour redonner à votre champ d'épuration son rendement optimal."
+      "answer": "Nous restaurons le drainage par injection d’air."
     },
     "q6": {
-      "question": "Combien de temps pour une réparation ?",
-      "answer": "En moyenne 4 à 8 heures. La plupart des réparations sont complétées dans la même journée."
+      "question": "Combien de temps dure une réparation ?",
+      "answer": "En moyenne entre 4 et 8 heures, généralement la même journée."
     },
     "q7": {
       "question": "Le terrain sera-t-il endommagé ?",
-      "answer": "Des trous de 3 cm de diamètre à tous les 3 pieds carrés apparaîtront en surface, mais disparaîtront en quelques jours."
+      "answer": "De petits trous temporaires disparaissent en quelques jours."
     },
     "q8": {
-      "question": "Est-ce dommageable pour l'environnement ?",
-      "answer": "Pas du tout! Notre technique d'aération permet simplement à votre champ d'épuration de fonctionner comme à l'origine."
+      "question": "Est-ce écologique ?",
+      "answer": "Oui, la méthode permet au champ d’épuration de fonctionner normalement."
     },
     "q9": {
-      "question": "Comment vérifier si mon système a un problème ?",
-      "answer": "Vérifiez le niveau d'eau dans la fosse septique (devrait être sous le tuyau), cherchez des bouchons de papier, et inspectez votre champ pour de l'eau en surface."
+      "question": "Comment savoir si mon système a un problème ?",
+      "answer": "Vérifiez le niveau d’eau, les refoulements et la présence d’eau en surface."
     },
     "q10": {
-      "question": "Puis-je connecter mon adoucisseur d'eau au système ?",
-      "answer": "Non. Cela crée des dépôts dans la fosse septique et génère un surplus d'eau excessif."
-    },
-    "septic-field": {
-      "problems": "PROBLEMS OF DRAINAGE (SEPTIC FIELD)"
+      "question": "Puis-je connecter un adoucisseur d’eau ?",
+      "answer": "Non, cela provoque des dépôts et un surplus d’eau."
     }
+  },
+  "septic-field": {
+    "problems": "PROBLEMS OF DRAINAGE (SEPTIC FIELD)"
   }
 }

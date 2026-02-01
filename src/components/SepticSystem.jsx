@@ -18,20 +18,20 @@ export default function SepticSystem() {
                 <p> {t("septic-system.leach-field-text")}</p>
                 <h1> {t("septic-system.problem-title")}</h1>
                 <p> {t("septic-system.problem-text")}</p>
+                <ul className="symptoms-drainage-list">
+                    {t("septic-system.problem-list", { returnObjects: true }).map((item, index) =>
+                    (
+                        <li key={index}>{item}</li>
+                    ))}
+                </ul>
             </div>
-            <ul className="symptoms-drainage-list">
-                {t("septic-system.problem-list", { returnObjects: true }).map((item, index) =>
-                (
-                    <li key={index}>{item}</li>
-                ))}
-            </ul>
+
             <div className="solution-drainage">
                 <h1> {t("septic-system.solution-title")} </h1>
                 <p> {t("septic-system.solution-text")} </p>
             </div>
             <div className="how-it-works">
                 <h1> {t("septic-system.how-it-works-title")} </h1>
-                <h4> {t("septic-system.how-it-works-subtitle")} </h4>
                 <p> {t("septic-system.how-it-works-text")} </p>
             </div>
             <div className="high-pressure-pipe">
@@ -52,7 +52,7 @@ export default function SepticSystem() {
 
                 <h4> {t("septic-system.excavation-subtitle")} </h4>
                 <ul className="repair-list">
-                    {t("septic-system.excavation-list", {returnObjects : true}).map((item, index) =>(
+                    {t("septic-system.excavation-list", { returnObjects: true }).map((item, index) => (
                         <li key={index}> {item} </li>
                     ))}
                 </ul>
