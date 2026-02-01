@@ -78,7 +78,19 @@
   },
   "contact": {
     "title": "Nos coordonnées",
-    "members": "Notre équipe"
+    "members-title": "Notre équipe",
+    "members": {
+      "imageDescription": "Ceci est une image de Mark Kelly",
+      "name": "Mark Kelly",
+      "role": "Président",
+      "email": "mark@kellylasolution.ca",
+      "genevieve": {
+        "imageDescription": "Ceci est une image de Geneviève Kelly",
+        "name": "Geneviève Kelly",
+        "role": "Directrice adjointe",
+        "email": "genevieve@kellylasolution.ca"
+      }
+    }
   },
   "photos": {
     "title-photos": "Photos",

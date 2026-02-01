@@ -78,7 +78,19 @@
   },
   "contact": {
     "title": "Contact Information",
-    "members": "Our Team"
+    "members-title": "Our Team",
+    "members": {
+      "imageDescription": "This is an image of Mark Kelly",
+      "name": "Mark Kelly",
+      "role": "President",
+      "email": "mark@kellylasolution.ca",
+      "genevieve": {
+        "imageDescription": "This is an image of Geneviève Kelly",
+        "name": "Geneviève Kelly",
+        "role": "Administrative Assistant",
+        "email": "genevieve@kellylasolution.ca"
+      }
+    }
   },
   "photos": {
     "title-photos": "Photos",
