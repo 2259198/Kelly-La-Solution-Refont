@@ -6,60 +6,77 @@
     "faq": "F.A.Q",
     "contact": "Contact"
   },
-  "home":{
-    "history-title" : "History",
+  "home": {
+    "history-title": "History",
     "history-text": "",
     "when-title": "",
-    "skeptic-title" :"Skeptic",
-    "skeptic-list" : [
+    "skeptic-title": "Skeptic",
+    "skeptic-list": [
       "Field",
       "Change",
       "Repair",
       "Chimine",
       "Prefilter"
     ],
-    "air-injection-title" : "Air injection",
+    "air-injection-title": "Air injection",
     "air-injection-list": [
       "Sport's field",
       "Parcs"
     ],
-    "localisation-title" : "Location",
-    "locatisation-list" : [
+    "localisation-title": "Location",
+    "locatisation-list": [
       "Bigger",
       "Pool"
     ],
-    "french-drain-title" : "French Drain ",
-    "french-drain-list" : [
+    "french-drain-title": "French Drain ",
+    "french-drain-list": [
       "Clean up",
       "Installation",
       "Mini-camera"
     ],
-    "solution-title" : "Our solution ",
-    "solutions" : [
+    "solution-title": "Our solution ",
+    "solutions": [
       "Fast",
       "Cheap",
       "Guarantee"
     ],
     "companies-title": "We work for "
   },
-  "septic-system":{
-    "problems-drainage-title" : "PROBLEMS OF DRAINAGE (SEPTIC FIELD)",
-    "leach-field-title" : "LEACH FIELD",
-    "problem-title" : "THE PROBLEM",
-    "problem-list" : [
-        "Smells outside",
-        "Following heavy rain or snow melt the ground remains spongy (like a sponge)",
-        "The water level in the septic tank is higher than normal sometimes overflowed by the lids",
-        "When emptying the septic tank there is water backing up from the septic field",
-        "The ground is soaked so much that you can not mow the lawn"
-        
+  "septic-system": {
+    "problems-drainage-title": "PROBLEMS OF DRAINAGE (SEPTIC FIELD)",
+    "leach-field-title": "LEACH FIELD",
+    "leach-field-text": "Specialist in the aeration and defragmentation of the soil by an innovative technology in the restoration of septic fields.  Our technoclogy is : economic, efficient, respectful of the environment and unique.",
+    "problem-text": "Your septic system does not seem to work properly anymore Sewage water on the surface of the grass; often and especially during washings The water of the toilet goes up or down very slowly 'gargoyle' in the bathroom sink",
+    "problem-title": "THE PROBLEM",
+    "problem-list": [
+      "Smells outside",
+      "Following heavy rain or snow melt the ground remains spongy (like a sponge)",
+      "The water level in the septic tank is higher than normal sometimes overflowed by the lids",
+      "When emptying the septic tank there is water backing up from the septic field",
+      "The ground is soaked so much that you can not mow the lawn"
     ],
-    "solution-title" : "THE SOLUTION",
-    "how-it-works-title" : "HOW IT WORKS",
-    "high-pressure-title" : "High pressure pipe cleaning",
-    "prefilter-title" : "PREFILTER",
-    "excavation-title" : "EXCAVATION ET REPAIR",
-    "location-title" : "LOCATION"
+    "solution-title": "THE SOLUTION",
+    "solution-text" : "Kelly La Solution Inc. owns the restoration technique to solve many soil problems including compaction and saturation of septic field. To rejuvenate quickly years can be added to yousystem without destroying your landscaping.",
+    "how-it-works-title": "HOW IT WORKS",
+    "how-it-works-subtitle": "Aeration of the leaching field",
+    "how-it-works-text" : "Kelly La Solution Inc. will first locate the field then insert a 3 cm probe into the ground using a pneumatic hammer at a depth between 1 to 2 meters depending on the depth of the pipes in the field. Using a high-pressure compressor, the air is injected as a shot of dynamite which at the same time decolour the stone under the pipes and the earth walls, on each side of the field. The surface of the ground will move about 3 meters in diameter without damaging the ground. The air goes into all the cracks of the earth which will produce a vertical and horizontal passage to water and air. This solution is repeated every 1.5m according to the soil condition.", 
+    "high-pressure-title": "High pressure pipe cleaning",
+    "prefilter-title": "PREFILTER",
+    "prefilter-text": "Pre-filters prevent clogging in the septic field.  IMPORTANT regular maintenance or cleaning should be done regularly.",
+    "prefilter-text-under-pic": "The prefilter improves the quality of the effluent from the septic tank. Suspended solids and grease are retained by the prefilter, which delays clogging and increases its life. Depending on the daily flow, it's possible to use more than one prefilter in the same installation. We offer the cleaning service according to YOUR needs: every month, 3 months, 6 months, 12 months etc ...",    
+    "excavation-title": "EXCAVATION ET REPAIR",
+    "excavation-subtitle": "Mini-Excavation- To avoid digging the lids we install liner risers (chimneys) ",
+    "excavation-list": [
+      "Obstruction in the pipes = pressure cleaning",
+      "Roots, tree nearby = we dig, replace pipe, cut the roots ...",
+      "Diagnose the problem (bad drainage, breakage ...) = camera",
+      "Pipe crushed or damaged = replace the pipes",
+      "Cracked or damaged cover = we replace it",
+      "Smell problem = smoke test"
+    ],
+    
+    "location-title": "Location",
+    "location-text": "Whether if you need a permit for the installation of a swimming pool, a project to expand your property, the construction of a garage, a shed ... we can help you and your project can be realized quickly. Keep in mind taht the first thing your city, town, village ... will ask you in order to process your request for a permit is to provide them the location of your septic system. No matter the age of the system we are able to locate the septic system."
   },
   "contact": {
     "title": "Our contact information",
@@ -115,7 +132,7 @@
       "answer": "No. This creates deposits in the septic tank and generates excessive water surplus."
     }
   },
-  "septic-field":{
-    "problems" : "PROBLEMS OF DRAINAGE (SEPTIC FIELD)"
+  "septic-field": {
+    "problems": "PROBLEMS OF DRAINAGE (SEPTIC FIELD)"
   }
 }

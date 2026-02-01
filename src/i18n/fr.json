@@ -6,60 +6,76 @@
     "faq": "F.A.Q",
     "contact": "Nous joindre"
   },
-  "home":{
-    "history-title" : "Historique",
+  "home": {
+    "history-title": "Historique",
     "history-text": "Fondée en 2003 à l’Île Perrot, Kelly La Solution Inc. s’appuie sur plus de 50 ans d’expertise dans le domaine des fosses septiques. L’entreprise offre une gamme complète de services, dont le nettoyage de drains français, l’inspection par mini-caméra, l’installation et la réparation de systèmes, l’excavation ainsi que la vente et l’entretien de préfiltres. Kelly La Solution se distingue surtout par son procédé exclusif au Québec de décompactage du sol, réalisé par injection d’air. Cette technique rapide et non invasive permet d’améliorer efficacement tous types de terrains, sans endommager la surface. Face à son succès rapide, une franchise a vu le jour à Val-Bélair en 2005, permettant d’offrir ces services uniques à la grande région de Québec.",
     "when-title": "Quand devriez-vous communiquer avec nous ?",
-    "skeptic-title" :"FOSSE SEPTIQUE ",
-    "skeptic-list" : [
+    "skeptic-title": "FOSSE SEPTIQUE ",
+    "skeptic-list": [
       "Champ d'épuration",
       "Besoin de changer la fosse septique peu importe la grandeur, en plastique ou en ciment ...",
       "Couvercle (réparation ou achat)",
       "Rehaussement du couvercle (cheminée)",
       "Préfiltre"
     ],
-    "air-injection-title" : "DÉCOMPACTION PAR INJECTION D'AIR",
+    "air-injection-title": "DÉCOMPACTION PAR INJECTION D'AIR",
     "air-injection-list": [
       "Terrain sportif (baseball, soccer, football, volleyball ...)",
       "Parc à chiens, vignoble, espace vert ... etc."
     ],
-    "localisation-title" : "Localisation",
-    "locatisation-list" : [
+    "localisation-title": "Localisation",
+    "locatisation-list": [
       "Agrandissement de la propriété",
       "Installation piscine, cabanon"
     ],
-    "french-drain-title" : "DRAIN FRANÇAIS ",
-    "french-drain-list" : [
+    "french-drain-title": "DRAIN FRANÇAIS ",
+    "french-drain-list": [
       "Nettoyage des drains français",
       "Installation d'un regard pour facilité l'accès et le nettoyage des drains français",
       "Passer la mini-caméra (avec rapport sur DVD)"
     ],
-    "solution-title" : "NOTRE SOLUTION EST À LA FOIS ",
-    "solutions" : [
+    "solution-title": "NOTRE SOLUTION EST À LA FOIS ",
+    "solutions": [
       "Rapide",
       "Économique",
       "Garantie"
     ],
     "companies-title": "Nous travaillons pour les particuliers, les villes, municipalités ... "
   },
-  "septic-system":{
-    "problems-drainage-title" : "Problèmes de drainage",
-    "leach-field-title" : "Terrain",
-    "problem-title" : "Le problème",
-    "problem-list" : [
-        "Pue",
-        "Pluie forte",
-        "Niveau d'eau",
-        "Quand on vide",
-        "Par terre"
-        
+  "septic-system": {
+    "problems-drainage-title": "Problèmes de drainage",
+    "leach-field-title": "Terrain",
+    "leach-field-text": "",
+    "problem-text": "",
+    "problem-title": "Le problème",
+    "problem-list": [
+      "Pue",
+      "Pluie forte",
+      "Niveau d'eau",
+      "Quand on vide",
+      "Par terre"
     ],
-    "solution-title" : "La solution",
-    "how-it-works-title" : "Comment ça marche?",
-    "high-pressure-title" : "Grosse pression",
-    "prefilter-title" : "Prefiltre",
-    "excavation-title" : "Excavation",
-    "location-title" : "Localisation"
+    "solution-title": "La solution",
+    "solution-text": "",
+    "how-it-works-title": "Comment ça marche?",
+    "how-it-works-subtitle": "",
+    "how-it-works-text": "",
+    "high-pressure-title": "Grosse pression",
+    "prefilter-title": "Prefiltre",
+    "prefilter-text": "",
+    "prefilter-text-under-pic": "",
+    "excavation-title": "Excavation",
+    "excavation-subtitle": "",
+    "excavation-list": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "location-title": "Localisation",
+    "location-text": ""
   },
   "contact": {
     "title": "Nos coordonnées pour nous rejoindre",
