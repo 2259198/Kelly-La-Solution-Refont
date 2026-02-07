@@ -22,10 +22,10 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/' element={<SepticSystem />} />
-            <Route path='/Systems' element={<SpiralRake />} />
-            <Route path='/' element={<FrenchDrain />} />
-            <Route path='/Photos' element={<PhotosVideos />} />
+            <Route path='/' element={<SpiralRake />} />
+            <Route path='/Systems' element={<FrenchDrain />} />
             <Route path='/' element={<SportField />} />
+            <Route path='/Photos' element={<PhotosVideos />} />
             <Route path='/FAQ' element={<FAQ />} />
             <Route path='/Contact' element={<Contact />} />
           </Routes>

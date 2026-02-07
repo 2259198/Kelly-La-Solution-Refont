@@ -1,7 +1,111 @@
-.FrenchDrain{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1.5rem;
+.FrenchDrain {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    width: 100vw;
+
+    h1 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 25px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+        color: #444;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            }
+        }
+    }
+
+    // Tablet breakpoint
+    @media (min-width: 768px) {
+        padding: 40px;
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.9;
+            margin-bottom: 40px;
+        }
+
+        .photos {
+            gap: 30px;
+        }
+    }
+
+    // Desktop breakpoint
+    @media (min-width: 1024px) {
+        padding: 60px 80px;
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 35px;
+        }
+
+        p {
+            font-size: 19px;
+            line-height: 2;
+            margin-bottom: 50px;
+            text-align: left;
+        }
+
+        .photos {
+            flex-direction: row;
+            gap: 40px;
+            justify-content: space-between;
+
+            img {
+                width: calc(50% - 20px);
+                max-height: 400px;
+            }
+        }
+    }
+
+    @media (min-width: 1400px) {
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .photos {
+            gap: 50px;
+
+            img {
+                max-height: 450px;
+            }
+        }
+    }
 }
