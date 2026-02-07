@@ -5,28 +5,27 @@ import Videos from "./Data/Videos";
 import { useTranslation } from "react-i18next";
 
 export default function PhotosVideos() {
-
     const {t} = useTranslation();
-
+    
     return (
         <div className="PhotosVideos">
-            <h1>{t("photos.title-photos")}</h1>
-            {Photos.map((image, index) => (
-                <div className="photos-section" key={index}>
-                    <img src={image.element} alt="" />
+            <div className="photos-section">
+                <h2>{t("photos.title-photos")}</h2>
+                <div className="photos-container">
+                    {Photos.map((image, index) => (
+                        <img key={index} src={image.element} alt={`Photo ${index + 1}`} />
+                    ))}
                 </div>
-            ))}
-
-
-            <h1>{t("photos.title-videos")}</h1>
-
-            {Videos.map((video, index) => (
-                <div className="videos-section" key={index}>
-                    <video src={video.element}>
-                        <source src={video.element}/>
-                    </video>
+            </div>
+            
+            <div className="videos-section">
+                <h2>{t("photos.title-videos")}</h2>
+                <div className="videos-container">
+                    {Videos.map((video, index) => (
+                        <video key={index} src={video.element} controls />
+                    ))}
                 </div>
-            ))}
+            </div>
         </div>
-    )
+    );
 }
