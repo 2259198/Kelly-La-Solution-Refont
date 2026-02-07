@@ -23,8 +23,8 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/' element={<SepticSystem />} />
             <Route path='/' element={<SpiralRake />} />
-            <Route path='/Systems' element={<FrenchDrain />} />
-            <Route path='/' element={<SportField />} />
+            <Route path='/' element={<FrenchDrain />} />
+            <Route path='/Systems' element={<SportField />} />
             <Route path='/Photos' element={<PhotosVideos />} />
             <Route path='/FAQ' element={<FAQ />} />
             <Route path='/Contact' element={<Contact />} />

@@ -2,36 +2,36 @@ import React from "react";
 import './SportField.scss';
 import photo1 from "../components/Photos/terrain-de-balle-problematique-Kelly-la-Solution.jpg";
 import photo2 from "../components/Photos/tondeuse.jpg";
+import { useTranslation } from "react-i18next";
 
 export default function SportField() {
+
+    const {t} = useTranslation();
+
     return (
         <div className="SportField">
             <div className="problem-section">
-                <h1>SPORT FIELD / DOG PARK / VINEYARD ...</h1>
+                <h1> {t("sport-field.sport-field-title")} </h1>
 
-                <h3>THE PROBLEM</h3>
+                <h3> {t("sport-field.the-problem-title")} </h3>
 
-                <p>Sports fields (baseball, football, soccer, volleyball ...), green space, dog park, vineyard ... no matter the nature of the ground, the soil is too compact.</p>
-
-                Sports fields (baseball, football, soccer, volleyball ...), green space, dog park, vineyard ... no matter           the nature of the ground, the soil is too compact.
+                <p> {t("sport-field.the-problem-text")} </p>
 
                 <img src={photo1} alt="This is an image of the problem of a sports' field" />
 
-                <h3> SYMPTOMS </h3>
+                <h3> {t("sport-field.symptoms-title")} </h3>
 
-                <p>After a rain the water remains on the surface of the ground.
-                    The land stays wet for a long time.
-                    Drainage no longer work.</p>
+                <p> {t("sport-field.symptoms-title")} </p>
 
-                <h3>THE SOLUTION</h3>
+                <h3> {t("sport-field.solution-title")} </h3>
 
-                <p>Kelly La Solution Inc. owns an air-injection restoration technique to solve soil problems (including compaction). Specialist in aeration and defragmentation of all types of soils. Our technology is : economic, efficient, environmentally friendly and unique</p>
+                <p> {t("sport-field.solution-text")} </p>
 
                 <img src={photo2} alt="This is an image of the lawn-mower" />
 
-                <h3>OPERATION</h3>
+                <h3> {t("sport-field.operation-title")} </h3>
 
-                <p>Using a pneumatic hammer in the soil we insert a probe of 3 cm in diameter and a depth between 7 and 12''. Using a high-pressure compressor, +-65 pounds of air are injected in the ground. After the air injection, the ground cracks horizontally and vertically. The surface of the ground will move about 3 meters in diameter, the drainage is instantaneous. This solution is repeated every 1.5 meters according to the soil condition.</p>
+                <p> {t("sport-field.operation-text")} </p>
 
             </div>
 
