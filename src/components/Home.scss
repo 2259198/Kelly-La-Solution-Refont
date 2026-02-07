@@ -4,52 +4,291 @@
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    padding: 1.5rem;
-    text-align: center;
+    padding: 1rem;
     gap: 2rem;
 
-    .home-separator {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .title{
-        font-size: clamp(1rem, 1vw, 1rem);
+    .title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
     }
 
     h1, h2, h3, h4, h5, h6 {
         text-align: center;
+        line-height: 1.4;
     }
 
-    p{
-        gap: 1rem;
+    h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 1rem;
+        color: #333;
     }
 
-    .clients-section, .history-section {
+    p {
+        line-height: 1.7;
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .history-section {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background-color: white;
-        padding: 2.5rem;
-        border-radius: 25px;
+        padding: 1.5rem;
+        border-radius: 16px;
         gap: 1rem;
-        color: black;
-        text-align: left;
-        // font-size: clamp(1rem, 1vw, 1rem);
+        color: #333;
+        width: 100%;
+        max-width: 1200px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
-        .companies-list{
+        .title {
+            color: #1a1a1a;
+        }
+    }
+
+    .home-separator {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+        max-width: 1200px;
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 16px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+        > .title {
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.75rem;
+            padding-left: 0;
+            list-style: none;
+            text-align: left;
+
+            li {
+                padding: 0.75rem 1rem;
+                background-color: #f8f9fa;
+                border-radius: 8px;
+                border-left: 3px solid #4CAF50;
+                transition: all 0.3s ease;
+                position: relative;
+                padding-left: 2.5rem;
+
+                &::before {
+                    content: "✓";
+                    position: absolute;
+                    left: 1rem;
+                    color: #4CAF50;
+                    font-weight: bold;
+                }
+
+                &:hover {
+                    background-color: #e9ecef;
+                    transform: translateX(4px);
+                }
+            }
+        }
+
+        .septic-field-list li {
+            border-left-color: #2196F3;
+            &::before { color: #2196F3; }
             display: flex;
             justify-content: center;
-            flex-direction: column;
-            gap: 2.5rem;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .air-injection-list li {
+            border-left-color: #FF9800;
+            &::before { color: #FF9800; }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .location-list li {
+            border-left-color: #9C27B0;
+            &::before { color: #9C27B0; }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .french-drain-list li {
+            border-left-color: #00BCD4;
+            &::before { color: #00BCD4; }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .solution-list li {
+            border-left-color: #4CAF50;
+            &::before { color: #4CAF50; }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
+        }
+    }
+
+    .clients-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 16px;
+        gap: 1.5rem;
+        color: #333;
+        width: 100%;
+        max-width: 1200px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+        .title {
+            color: #1a1a1a;
+        }
+
+        .companies-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            width: 100%;
+            list-style: none;
+            padding-left: 0;
+
+            li {
+                padding: 1rem;
+                background-color: #f8f9fa;
+                border-radius: 8px;
+                text-align: center;
+                font-weight: 500;
+                transition: all 0.3s ease;
+                border: 2px solid transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover {
+                    background-color: #e3f2fd;
+                    border-color: #2196F3;
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.2);
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 600px) {
+        padding: 2rem;
+        gap: 3rem;
+
+        .title {
+            font-size: 1.75rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        .history-section,
+        .home-separator,
+        .clients-section {
+            padding: 2rem;
+        }
+
+        .home-separator {
+            ul {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+
+            .solution-list {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .clients-section {
+            .companies-list {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
+            }
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        padding: 3rem 2rem;
+        gap: 4rem;
+
+        .title {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+        }
+
+        .history-section,
+        .home-separator,
+        .clients-section {
+            padding: 3rem;
+        }
+
+        .history-section {
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+        .home-separator {
+            padding: 3rem;
+
+            ul {
+                gap: 1.25rem;
+
+                li {
+                    padding: 1rem 1.25rem;
+                }
+            }
+        }
+
+        .clients-section {
+            .companies-list {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 2rem;
+
+                li {
+                    padding: 1.5rem;
+                    font-size: 1.05rem;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .clients-section {
+            .companies-list {
+                grid-template-columns: repeat(4, 1fr);
+            }
         }
     }
 }
-
-
 
 .septic-field-list,
 .air-injection-list,
@@ -58,4 +297,7 @@
 .solution-list,
 .companies-list {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
 }
