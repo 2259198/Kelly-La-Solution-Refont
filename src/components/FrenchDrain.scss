@@ -1,9 +1,11 @@
+@import "./styles/variables";
+
 .FrenchDrain {
     margin: 0 auto;
     padding: 20px;
     font-family: 'Arial', sans-serif;
     color: #333;
-    width: 100vw;
+    width: $default-width;
 
     h1 {
         font-size: 28px;
@@ -25,7 +27,7 @@
     .photos {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: $default-gap-setting;
         width: 100%;
 
         img {
@@ -34,12 +36,6 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             object-fit: cover;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-            &:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-            }
         }
     }
 
@@ -56,10 +52,6 @@
             font-size: 18px;
             line-height: 1.9;
             margin-bottom: 40px;
-        }
-
-        .photos {
-            gap: 30px;
         }
     }
 
@@ -81,7 +73,6 @@
 
         .photos {
             flex-direction: row;
-            gap: 40px;
             justify-content: space-between;
 
             img {

@@ -1,11 +1,13 @@
+@import "./styles/variables";
+
 .Home {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
+    width: $default-width;
     padding: 1rem;
-    gap: 2rem;
+    gap: $default-gap-setting;
     margin-top: 90px;
 
     .title {
@@ -40,7 +42,7 @@
         background-color: white;
         padding: 1.5rem;
         border-radius: 16px;
-        gap: 1rem;
+        gap: $default-gap-setting;
         color: #333;
         width: 100%;
         max-width: 1200px;
@@ -55,7 +57,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        gap: 2rem;
+        gap: $default-gap-setting;
         width: 100%;
         max-width: 1200px;
         background-color: white;
@@ -71,7 +73,7 @@
         ul {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 0.75rem;
+            gap: $default-gap-setting;
             padding-left: 0;
             list-style: none;
             text-align: left;
@@ -106,7 +108,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 1rem;
+            gap: $default-gap-setting;
         }
 
         .air-injection-list li {
@@ -115,7 +117,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 1rem;
+            gap: $default-gap-setting;
         }
 
         .location-list li {
@@ -124,7 +126,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 1rem;
+            gap: $default-gap-setting;
         }
 
         .french-drain-list li {
@@ -133,7 +135,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 1rem;
+            gap: $default-gap-setting;
         }
 
         .solution-list li {
@@ -142,7 +144,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 1rem;
+            gap: $default-gap-setting;
             font-weight: 600;
             background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
         }
@@ -156,7 +158,7 @@
         background-color: white;
         padding: 1.5rem;
         border-radius: 16px;
-        gap: 1.5rem;
+        gap: $default-gap-setting;
         color: #333;
         width: 100%;
         max-width: 1200px;
@@ -169,7 +171,7 @@
         .companies-list {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 1rem;
+            gap: $default-gap-setting;
             width: 100%;
             list-style: none;
             padding-left: 0;

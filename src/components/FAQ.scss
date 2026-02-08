@@ -1,17 +1,19 @@
+@import "./styles/variables";
+
 .FAQ {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    gap: 1.5rem;
+    width: $default-width;
+    gap: $default-gap-setting;
     padding: 2rem;
-    margin-top: 60px;
+    margin-top: $margin-top-setting;
 }
 
 .questions-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: $default-gap-setting;
     width: 100%;
     max-width: 1200px;
 }
@@ -23,7 +25,7 @@
     color: black;
     border-radius: 20px;
     padding: 1.5rem;
-    gap: 1rem;
+    gap: $default-gap-setting;
     font-size: clamp(0.9rem, 1vw, 1.1rem);
     width: 100%;
     min-height: 280px;

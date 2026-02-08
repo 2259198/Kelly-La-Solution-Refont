@@ -1,12 +1,14 @@
+@import "./styles/variables";
+
 .PhotosVideos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
+    width: $default-width;
     padding: 1rem;
-    gap: 2rem;
-    margin-top: 50px;
+    gap: $default-gap-setting;
+    margin-top: $margin-top-setting;
 
     .photos-section {
         width: 100%;
@@ -15,7 +17,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: $default-gap-setting;
 
         h2 {
             font-size: 1.5rem;
@@ -26,7 +28,7 @@
         .photos-container {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 1rem;
+            gap: $default-gap-setting;
             width: 100%;
 
             img {
@@ -53,7 +55,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: $default-gap-setting;
 
         h2 {
             font-size: 1.5rem;
@@ -64,7 +66,7 @@
         .videos-container {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 1rem;
+            gap: $default-gap-setting;
             width: 100%;
 
             video {

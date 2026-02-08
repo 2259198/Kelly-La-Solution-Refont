@@ -2,15 +2,14 @@
 
 
 .Contact {
-    width: $default-width;
-    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    padding: 1.5rem;
+    width: $default-width;
+    gap: $default-gap-setting;
     color: $text-color;
-
-    margin-top: 60px;
+    margin-top: $margin-top-setting;
 
     .contact-container,
     .members-section {
@@ -21,7 +20,7 @@
     .contact-container {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: $default-gap-setting;
         background-color: #fff;
         border-radius: 1.25rem;
         padding: 1.5rem;
@@ -32,14 +31,14 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            gap: 1.5rem;
+            gap: $default-gap-setting;
         }
     }
 
     .members-section {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: $default-gap-setting;
         width: 100%;
 
         h2 {
@@ -50,7 +49,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 0.75rem;
+            gap: $default-gap-setting;
             background-color: #fff;
             border-radius: 1.25rem;
             padding: 1.5rem;
@@ -111,7 +110,7 @@ h2 {
         .members-section {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
+            gap: $default-gap-setting;
 
             h2 {
                 grid-column: 1 / -1;

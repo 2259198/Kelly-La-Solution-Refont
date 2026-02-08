@@ -1,10 +1,11 @@
+@import "./styles/variables";
+
 .SportField {
     margin: 0 auto;
     padding: 20px;
     font-family: 'Arial', sans-serif;
-    width: 100vw;
-
-    margin-top: 60px;
+    width: $default-width;
+    margin-top: $margin-top-setting;
 
     .problem-section {
         background-color: #ffffff;
