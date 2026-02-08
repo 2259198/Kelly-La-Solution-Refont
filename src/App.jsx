@@ -14,17 +14,17 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0);
-
+  
   return (
       <Router>
         <Header/>
         <main>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/' element={<SepticSystem />} />
-            <Route path='/' element={<SpiralRake />} />
-            <Route path='/' element={<FrenchDrain />} />
-            <Route path='/Systems' element={<SportField />} />
+            <Route path='/systems/septic' element={<SepticSystem />} />
+            <Route path='/systems/spiral-rake' element={<SpiralRake />} />
+            <Route path='/systems/french-drain' element={<FrenchDrain />} />
+            <Route path='/systems/sport-field' element={<SportField />} />
             <Route path='/Photos' element={<PhotosVideos />} />
             <Route path='/FAQ' element={<FAQ />} />
             <Route path='/Contact' element={<Contact />} />
