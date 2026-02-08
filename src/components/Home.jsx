@@ -11,43 +11,44 @@ export default function Home() {
         <div className="Home">
 
             <div className="history-section">
-                <h1 className="title"> {t("home.history-title")} </h1>
+                <h1> {t("home.history-title")} </h1>
 
                 <p>{t("home.history-text")}</p>
 
             </div>
-            <div className="home-separator">
-                <h1 className="title"> {t("home.when-title")} </h1>
 
-                <h2> {t("home.skeptic-title")} </h2>
+            <div className="home-separator">
+                <h3> {t("home.when-title")} </h3>
+
+                <h4> {t("home.skeptic-title")} </h4>
 
                 <ul className="septic-field-list">
 
-                    {t("home.skeptic-list", {returnObjects : true}).map((item, index) => (
+                    {t("home.skeptic-list", { returnObjects: true }).map((item, index) => (
                         <li key={index}>{item}</li>
                     ))}
 
                 </ul>
 
-                <h2> {t("home.air-injection-title")} </h2>
+                <h4> {t("home.air-injection-title")} </h4>
 
                 <ul className="air-injection-list">
-                    {t("home.air-injection-list", {returnObjects : true}).map((item, index) => (
+                    {t("home.air-injection-list", { returnObjects: true }).map((item, index) => (
                         <li key={index}>{item}</li>
                     ))}
                 </ul>
 
 
-                <h2> {t("home.localisation-title")} </h2>
+                <h4> {t("home.localisation-title")} </h4>
 
                 <ul className="location-list">
-                    {t("home.locatisation-list", {returnObjects : true}).map((item, index) =>(
+                    {t("home.locatisation-list", { returnObjects: true }).map((item, index) => (
                         <li key={index}>{item}</li>
                     ))}
                 </ul>
 
 
-                <h2> {t("home.french-drain-title")} </h2>
+                <h4> {t("home.french-drain-title")} </h4>
 
                 <ul className="french-drain-list">
                     {t("home.french-drain-list", { returnObjects: true }).map((item, index) => (
@@ -55,7 +56,7 @@ export default function Home() {
                     ))}
                 </ul>
 
-                <h2> {t("home.solution-title")} </h2>
+                <h4> {t("home.solution-title")} </h4>
 
                 <ul className="solution-list">
                     {t("home.solutions", { returnObjects: true }).map((item, index) => (
@@ -66,10 +67,8 @@ export default function Home() {
 
             </div>
 
-
-
             <div className="clients-section">
-                <h1 className="title"> {t("home.companies-title")} </h1>
+                <h3> {t("home.companies-title")} </h3>
 
                 <ul className="companies-list">
                     {

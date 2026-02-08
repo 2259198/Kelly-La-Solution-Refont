@@ -10,7 +10,7 @@ export default function PhotosVideos() {
     return (
         <div className="PhotosVideos">
             <div className="photos-section">
-                <h2>{t("photos.title-photos")}</h2>
+                <h1>{t("photos.title-photos")}</h1>
                 <div className="photos-container">
                     {Photos.map((image, index) => (
                         <img key={index} src={image.element} alt={`Photo ${index + 1}`} />
@@ -19,7 +19,7 @@ export default function PhotosVideos() {
             </div>
             
             <div className="videos-section">
-                <h2>{t("photos.title-videos")}</h2>
+                <h1>{t("photos.title-videos")}</h1>
                 <div className="videos-container">
                     {Videos.map((video, index) => (
                         <video key={index} src={video.element} controls />

@@ -10,7 +10,7 @@ export default function FAQ() {
 
     return (
         <div className="FAQ">
-            <h2>{t("nav.faq")}</h2>
+            <h1>{t("nav.faq")}</h1>
             <div className="questions-wrapper">
                 {faq.map((question, index) => (
                     <div className="questions" key={index}>

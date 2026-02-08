@@ -19,12 +19,6 @@
         flex-direction: column;
         gap: $default-gap-setting;
 
-        h2 {
-            font-size: 1.5rem;
-            text-align: center;
-            width: 100%;
-        }
-
         .photos-container {
             display: grid;
             grid-template-columns: 1fr;
@@ -57,12 +51,6 @@
         flex-direction: column;
         gap: $default-gap-setting;
 
-        h2 {
-            font-size: 1.5rem;
-            text-align: center;
-            width: 100%;
-        }
-
         .videos-container {
             display: grid;
             grid-template-columns: 1fr;
@@ -78,6 +66,11 @@
         }
     }
 
+    h1{
+        font-size: $default-h1-size;
+        padding: 1rem 0rem;
+    }
+
     @media screen and (min-width: 600px) {
         padding: 2rem;
         gap: 3rem;
@@ -87,20 +80,12 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 1.5rem;
             }
-
-            h2 {
-                font-size: 1.75rem;
-            }
         }
 
         .videos-section {
             .videos-container {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 1.5rem;
-            }
-
-            h2 {
-                font-size: 1.75rem;
             }
         }
     }
@@ -114,20 +99,12 @@
                 grid-template-columns: repeat(3, 1fr);
                 gap: 2rem;
             }
-
-            h2 {
-                font-size: 2rem;
-            }
         }
 
         .videos-section {
             .videos-container {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 2rem;
-            }
-
-            h2 {
-                font-size: 2rem;
             }
         }
     }
