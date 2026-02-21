@@ -2,10 +2,11 @@
 
 .FrenchDrain {
     margin: 0 auto;
-    padding: 20px;
+    padding: $default-padding-setting;
     font-family: 'Arial', sans-serif;
     color: #333;
     width: $default-width;
+    background-color: $background-color;
 
     h1 {
         font-size: 28px;

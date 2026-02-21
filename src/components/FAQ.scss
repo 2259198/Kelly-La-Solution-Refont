@@ -6,7 +6,7 @@
     align-items: center;
     width: $default-width;
     gap: $default-gap-setting;
-    padding: 2rem;
+    padding: $default-padding-setting;
     margin-top: $margin-top-setting;
 }
 
@@ -21,10 +21,10 @@
 .questions {
     display: flex;
     flex-direction: column;
-    background: white;
+    background: $white-text-color;
     color: black;
     border-radius: 20px;
-    padding: 1.5rem;
+    padding: $default-padding-setting;
     gap: $default-gap-setting;
     font-size: clamp(0.9rem, 1vw, 1.1rem);
     width: 100%;

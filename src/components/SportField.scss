@@ -2,13 +2,13 @@
 
 .SportField {
     margin: 0 auto;
-    padding: 20px;
+    padding: $default-padding-setting;
     font-family: 'Arial', sans-serif;
     width: $default-width;
     margin-top: $margin-top-setting;
 
     .problem-section {
-        background-color: #ffffff;
+        background-color: $background-color;
         color: #333;
         padding: 30px 20px;
         border-radius: 12px;

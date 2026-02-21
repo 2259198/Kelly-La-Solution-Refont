@@ -1,18 +1,24 @@
 $primary-color : #000000;
-$text-color: #000000;
+$background-color : #ffffff;
 
 
-$default-width: 100vw;
+$text-color : #000000;
+$white-text-color : #ffffff;
+
+
+
+$default-width : 100vw;
 $margin-top-setting : 60px;
 $default-gap-setting : 1.5rem;
+$default-padding-setting : 1.5rem;
 $max-width-setting : 1200px;
 
 
-$default-h1-size: clamp(2.25rem, 4vw + 1rem, 4rem);
-$default-h2-size: clamp(1.9rem, 3vw + 1rem, 3.2rem);
-$default-h3-size: clamp(1.5rem, 2.2vw + 0.9rem, 2.5rem);
-$default-h4-size: clamp(1.25rem, 1.6vw + 0.8rem, 2rem);
-$default-h5-size: clamp(1.1rem, 1.2vw + 0.7rem, 1.6rem);
-$default-h6-size: clamp(1rem, 0.9vw + 0.6rem, 1.3rem);
-$default-p-size: clamp(1rem, 0.4vw + 0.9rem, 1.2rem);
+$default-h1-size : clamp(2.25rem, 4vw + 1rem, 4rem);
+$default-h2-size : clamp(1.9rem, 3vw + 1rem, 3.2rem);
+$default-h3-size : clamp(1.5rem, 2.2vw + 0.9rem, 2.5rem);
+$default-h4-size : clamp(1.25rem, 1.6vw + 0.8rem, 2rem);
+$default-h5-size : clamp(1.1rem, 1.2vw + 0.7rem, 1.6rem);
+$default-h6-size : clamp(1rem, 0.9vw + 0.6rem, 1.3rem);
+$default-p-size : clamp(1rem, 0.4vw + 0.9rem, 1.2rem);
 
