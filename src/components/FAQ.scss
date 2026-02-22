@@ -21,9 +21,10 @@
 .questions {
     display: flex;
     flex-direction: column;
-    background: $white-text-color;
+    background: $background-color;
     color: black;
     border-radius: 20px;
+    border: $borders;
     padding: $default-padding-setting;
     gap: $default-gap-setting;
     font-size: clamp(0.9rem, 1vw, 1.1rem);
@@ -47,6 +48,7 @@
 
 h1{
     font-size: $default-h1-size;
+    color: $header-color;
 }
 
 @media (min-width: 768px) {

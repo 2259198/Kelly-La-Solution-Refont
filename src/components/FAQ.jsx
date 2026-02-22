@@ -14,7 +14,6 @@ export default function FAQ() {
             <div className="questions-wrapper">
                 {faq.map((question, index) => (
                     <div className="questions" key={index}>
-                        <h4>{/*{t("questions.title-question")}*/} <FontAwesomeIcon icon={faQuestion} /></h4>
                         <p className="question-text">{t(question.question)}</p>
                         <h4>{/*{t("questions.title-answer")}*/} <FontAwesomeIcon icon={faComment} /></h4>
                         <p className="answer-text">{t(question.answer)}</p>
