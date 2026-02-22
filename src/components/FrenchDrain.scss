@@ -1,101 +1,87 @@
 @import "./styles/variables";
 
 .FrenchDrain {
-    margin: 0 auto;
-    padding: $default-padding-setting;
-    font-family: 'Arial', sans-serif;
-    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: $default-width;
+    padding: $default-padding-setting;
+    gap: $default-gap-setting;
+    margin-top: 90px;
 
-    h1 {
-        font-size: 28px;
-        font-weight: bold;
-        color: #2c3e50;
-        margin-bottom: 25px;
-        text-align: center;
-        letter-spacing: 1px;
-    }
-
-    p {
-        font-size: 16px;
-        line-height: 1.8;
-        color: #444;
-        margin-bottom: 30px;
-        text-align: justify;
-    }
-
-    .photos {
+    .french-drain-section {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        background-color: $background-color;
+        border: $borders;
+        border-radius: 16px;
+        padding: $default-padding-setting;
         gap: $default-gap-setting;
+        color: #333;
         width: 100%;
-
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            object-fit: cover;
-        }
-    }
-
-    // Tablet breakpoint
-    @media (min-width: 768px) {
-        padding: 40px;
+        max-width: $max-width-setting;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
         h1 {
-            font-size: 36px;
-            margin-bottom: 30px;
+            text-align: center;
+            line-height: 1.4;
+            color: $header-color;
+            font-size: $default-h1-size;
+            font-weight: 700;
         }
 
         p {
-            font-size: 18px;
-            line-height: 1.9;
-            margin-bottom: 40px;
-        }
-    }
-
-    // Desktop breakpoint
-    @media (min-width: 1024px) {
-        padding: 60px 80px;
-
-        h1 {
-            font-size: 42px;
-            margin-bottom: 35px;
-        }
-
-        p {
-            font-size: 19px;
-            line-height: 2;
-            margin-bottom: 50px;
+            line-height: 1.7;
             text-align: left;
+            max-width: 100%;
+            font-size: $default-p-size;
         }
 
         .photos {
-            flex-direction: row;
-            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            gap: $default-gap-setting;
+            width: 100%;
 
             img {
-                width: calc(50% - 20px);
+                width: 100%;
+                height: auto;
                 max-height: 400px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                object-fit: cover;
             }
         }
     }
 
-    @media (min-width: 1400px) {
-        h1 {
-            font-size: 48px;
+    @media screen and (min-width: 600px) {
+        padding: 2rem;
+
+        .french-drain-section {
+            padding: 2rem;
         }
+    }
 
-        p {
-            font-size: 20px;
-        }
+    @media screen and (min-width: 900px) {
+        padding: 3rem 2rem;
 
-        .photos {
-            gap: 50px;
+        .french-drain-section {
+            padding: 3rem;
 
-            img {
-                max-height: 450px;
+            p {
+                font-size: 1.1rem;
+            }
+
+            .photos {
+                flex-direction: row;
+
+                img {
+                    width: calc(50% - #{$default-gap-setting} / 2);
+                    max-height: 450px;
+                }
             }
         }
     }

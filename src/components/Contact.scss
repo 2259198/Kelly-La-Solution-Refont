@@ -23,6 +23,7 @@
         gap: $default-gap-setting;
         background-color: $background-color;
         border-radius: 1.25rem;
+        border: $borders;
         padding: $default-padding-setting;
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 
@@ -52,6 +53,7 @@
             gap: $default-gap-setting;
             background-color: $background-color;
             border-radius: 1.25rem;
+            border: $borders;
             padding: $default-padding-setting;
             text-align: center;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);

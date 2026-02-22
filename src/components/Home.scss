@@ -1,5 +1,14 @@
 @import "./styles/variables";
 
+// List accent colors per section
+$list-colors: (
+    "septic-field": #2E6B46,
+    "air-injection": #6B9E7A,
+    "location": #A8C5A0,
+    "french-drain": #4A7C59,
+    "solution": #4A7C59,
+);
+
 .Home {
     display: flex;
     justify-content: center;
@@ -10,13 +19,18 @@
     gap: $default-gap-setting;
     margin-top: 90px;
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         text-align: center;
         line-height: 1.4;
-        color: $text-color;
+        color: $header-color;
     }
 
-    h3{
+    h3 {
         font-size: $default-h3-size;
         font-weight: 700;
         margin-bottom: 0.5rem;
@@ -36,32 +50,32 @@
         font-size: $default-p-size;
     }
 
+    %card {
+        background-color: $background-color;
+        border: $borders;
+        border-radius: 16px;
+        padding: $default-padding-setting;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        max-width: $max-width-setting;
+    }
+
     .history-section {
+        @extend %card;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: $background-color;
-        padding: $default-padding-setting;
-        border-radius: 16px;
         gap: $default-gap-setting;
         color: #333;
-        width: 100%;
-        max-width: $max-width-setting;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     }
 
     .home-separator {
+        @extend %card;
         display: flex;
         justify-content: center;
         flex-direction: column;
         gap: $default-gap-setting;
-        width: 100%;
-        max-width: $max-width-setting;
-        background-color: $background-color;
-        padding: $default-padding-setting;
-        border-radius: 16px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
         ul {
             display: grid;
@@ -72,20 +86,22 @@
             text-align: left;
 
             li {
-                padding: 0.75rem 1rem;
+                position: relative;
+                padding: 0.75rem 1rem 0.75rem 2.5rem;
                 background-color: $background-color;
                 border-radius: 8px;
                 border-left: 3px solid #4CAF50;
                 transition: all 0.3s ease;
-                position: relative;
-                padding-left: 2.5rem;
+                display: flex;
+                align-items: center;
+                gap: $default-gap-setting;
 
                 &::before {
                     content: "✓";
                     position: absolute;
                     left: 1rem;
-                    color: #4CAF50;
                     font-weight: bold;
+                    color: #4CAF50;
                 }
 
                 &:hover {
@@ -95,67 +111,30 @@
             }
         }
 
-        .septic-field-list li {
-            border-left-color: #2196F3;
-            &::before { color: #2196F3; }
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: $default-gap-setting;
-        }
+        @each $name, $color in $list-colors {
+            .#{$name}-list li {
+                border-left-color: $color;
 
-        .air-injection-list li {
-            border-left-color: #FF9800;
-            &::before { color: #FF9800; }
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: $default-gap-setting;
-        }
-
-        .location-list li {
-            border-left-color: #9C27B0;
-            &::before { color: #9C27B0; }
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: $default-gap-setting;
-        }
-
-        .french-drain-list li {
-            border-left-color: #00BCD4;
-            &::before { color: #00BCD4; }
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: $default-gap-setting;
+                &::before {
+                    color: $color;
+                }
+            }
         }
 
         .solution-list li {
-            border-left-color: #4CAF50;
-            &::before { color: #4CAF50; }
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: $default-gap-setting;
             font-weight: 600;
             background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
         }
     }
 
     .clients-section {
+        @extend %card;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: $background-color;
-        padding: $default-padding-setting;
-        border-radius: 16px;
         gap: $default-gap-setting;
         color: #333;
-        width: 100%;
-        max-width: $max-width-setting;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
         .companies-list {
             display: grid;
@@ -168,25 +147,25 @@
             li {
                 padding: $default-padding-setting;
                 background-color: $background-color;
+                border: 2px solid transparent;
                 border-radius: 8px;
                 text-align: center;
                 font-weight: 500;
-                transition: all 0.3s ease;
-                border: 2px solid transparent;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                transition: all 0.3s ease;
 
                 &:hover {
-                    background-color: #e3f2fd;
-                    border-color: #2196F3;
+                    background-color: #e8f3eb;
+                    border-color: #4A7C59;
                     transform: translateY(-2px);
-                    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.2);
+                    box-shadow: 0 4px 12px rgba(74, 124, 89, 0.2);
                 }
             }
         }
     }
-
+    
     @media screen and (min-width: 600px) {
         padding: 2rem;
         gap: 3rem;
@@ -201,22 +180,18 @@
             padding: 2rem;
         }
 
-        .home-separator {
-            ul {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 1rem;
-            }
-
-            .solution-list {
-                grid-template-columns: repeat(3, 1fr);
-            }
+        .home-separator ul {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
         }
 
-        .clients-section {
-            .companies-list {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 1.5rem;
-            }
+        .home-separator .solution-list {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .clients-section .companies-list {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
         }
     }
 
@@ -234,42 +209,28 @@
             padding: 3rem;
         }
 
-        .history-section {
-            p {
-                font-size: 1.1rem;
-            }
+        .history-section p {
+            font-size: 1.1rem;
         }
 
-        .home-separator {
-            padding: 3rem;
-
-            ul {
-                gap: 1.25rem;
-
-                li {
-                    padding: 1rem 1.25rem;
-                }
-            }
+        .home-separator ul {
+            gap: 1.25rem;
         }
 
-        .clients-section {
-            .companies-list {
-                grid-template-columns: repeat(3, 1fr);
-                gap: 2rem;
+        .clients-section .companies-list {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
 
-                li {
-                    padding: $default-padding-setting;
-                    font-size: 1.05rem;
-                }
+            li {
+                padding: $default-padding-setting;
+                font-size: 1.05rem;
             }
         }
     }
 
     @media screen and (min-width: 1200px) {
-        .clients-section {
-            .companies-list {
-                grid-template-columns: repeat(4, 1fr);
-            }
+        .clients-section .companies-list {
+            grid-template-columns: repeat(4, 1fr);
         }
     }
 }

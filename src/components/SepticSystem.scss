@@ -9,7 +9,7 @@
     width: $default-width;
     padding: $default-padding-setting;
     box-sizing: border-box;
-    
+
     .leach-field,
     .solution-drainage,
     .how-it-works,
@@ -25,26 +25,27 @@
         color: black;
         padding: $default-padding-setting;
         border-radius: 16px;
+        border: $borders;
         gap: 1.5rem;
         font-size: clamp(0.95rem, 2vw, 1.1rem);
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
-        
+
         h1 {
             font-size: clamp(1.5rem, 5vw, 2.5rem);
             text-align: center;
             margin: 0;
         }
-        
+
         p {
             line-height: 1.6;
             margin: 0;
             text-align: left;
             width: 100%;
         }
-        
-        .symptoms-drainage-list, 
+
+        .symptoms-drainage-list,
         .excation-repair {
             display: flex;
             justify-content: center;
@@ -54,13 +55,13 @@
             text-align: left;
             gap: 0.75rem;
             width: 100%;
-            
+
             li {
                 list-style-type: none;
                 padding-left: 1.5rem;
                 position: relative;
                 line-height: 1.6;
-                
+
                 &::before {
                     content: "•";
                     position: absolute;
@@ -70,7 +71,7 @@
             }
         }
     }
-    
+
     .high-pressure-pipe,
     .prefilter,
     .excation-repair {
@@ -82,11 +83,11 @@
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
     }
-    
+
     @media (min-width: 768px) {
         padding: 2rem;
         gap: 2rem;
-        
+
         .leach-field,
         .solution-drainage,
         .how-it-works,
@@ -97,17 +98,17 @@
             padding: 2rem;
             gap: 2rem;
             max-width: 800px;
-            
+
             h1 {
                 font-size: clamp(1.8rem, 3vw, 2.5rem);
             }
-            
+
             .symptoms-drainage-list,
             .excation-repair {
                 gap: 1rem;
             }
         }
-        
+
         .high-pressure-pipe,
         .prefilter,
         .excation-repair {
@@ -116,12 +117,11 @@
             }
         }
     }
-    
-    // Desktop breakpoint
+
     @media (min-width: 1024px) {
-        padding: 3rem;
+        padding: 6rem;
         gap: 2.5rem;
-        
+
         .leach-field,
         .solution-drainage,
         .how-it-works,
@@ -131,26 +131,25 @@
         .location-septic-system {
             padding: 2.5rem;
             gap: 2.5rem;
-            max-width: 1000px;
-            
+
             h1 {
                 font-size: 2.5rem;
             }
-            
+
             p {
                 font-size: 1.1rem;
             }
-            
+
             .symptoms-drainage-list,
             .excation-repair {
                 gap: 1.25rem;
-                
+
                 li {
                     font-size: 1.1rem;
                 }
             }
         }
-        
+
         .high-pressure-pipe,
         .prefilter,
         .excation-repair {

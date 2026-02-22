@@ -32,14 +32,6 @@ const Videos = [
         element : video7,
         text: ""
     },
-    {
-        element : video9,
-        text: ""
-    },
-    {
-        element : video10,
-        text: ""
-    },
 ]
 
 export default Videos;
