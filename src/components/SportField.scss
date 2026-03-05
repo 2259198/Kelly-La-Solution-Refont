@@ -2,94 +2,113 @@
 
 .SportField {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: $default-width;
-    padding: $default-padding-setting;
-    gap: $default-gap-setting;
-    margin-top: 90px;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: $margin-top-setting;
+    padding: clamp(1.5rem, 4vw, 3rem) clamp(1.5rem, 5vw, 5rem);
+    box-sizing: border-box;
 
-    .problem-section {
+    > h1 {
+        font-size: clamp(2rem, 6vw, 3.5rem);
+        text-align: center;
+        margin: 0 0 1rem;
+        letter-spacing: 0.05em;
+        color: $header-color;
+        width: 100%;
+    }
+
+    .sport-section {
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
+        align-items: flex-start;
         background-color: $background-color;
         border: $borders;
         border-radius: 16px;
-        padding: $default-padding-setting;
-        gap: $default-gap-setting;
-        color: #333;
+        padding: clamp(1.75rem, 3vw, 2.5rem) clamp(1.75rem, 4vw, 3rem);
+        gap: 1.25rem;
         width: 100%;
-        max-width: $max-width-setting;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        box-sizing: border-box;
 
-        h1 {
-            text-align: center;
-            line-height: 1.4;
-            color: $header-color;
-            font-size: $default-h1-size;
-            font-weight: 700;
-        }
-
-        h3 {
-            text-align: center;
-            line-height: 1.4;
-            color: $header-color;
-            font-size: $default-h3-size;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            border-bottom: $borders;
-            padding-bottom: 0.5rem;
-            width: 100%;
-        }
-
-        p {
-            line-height: 1.7;
+        h2 {
+            font-size: clamp(1.4rem, 3vw, 2rem);
             text-align: left;
-            max-width: 100%;
-            font-size: $default-p-size;
+            margin: 0;
+            color: $header-color;
+            letter-spacing: 0.04em;
+            width: 100%;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
         }
 
-        img {
+        .section-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
             width: 100%;
-            max-width: 500px;
-            height: auto;
-            max-height: 400px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            object-fit: cover;
-            display: block;
-            margin: 0 auto;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-            &:hover {
-                transform: scale(1.02);
-                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            p {
+                line-height: 1.75;
+                margin: 0;
+                font-size: clamp(0.95rem, 1.8vw, 1.05rem);
+                color: #333;
+            }
+
+            img {
+                width: 100%;
+                height: 260px;
+                border-radius: 12px;
+                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+                object-fit: cover;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.01);
+                    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+                }
+            }
+
+            &.has-photo {
+                @media (min-width: 768px) {
+                    flex-direction: row;
+                    align-items: flex-start;
+                    gap: 2rem;
+
+                    p {
+                        flex: 1;
+                    }
+
+                    img {
+                        flex: 0 0 340px;
+                        max-width: 340px;
+                        height: 260px;
+                    }
+                }
+
+                @media (min-width: 1024px) {
+                    img {
+                        flex: 0 0 420px;
+                        max-width: 420px;
+                        height: 300px;
+                    }
+                }
             }
         }
     }
 
-    @media screen and (min-width: 600px) {
-        padding: 2rem;
+    @media (min-width: 1024px) {
+        padding: 3rem 5rem;
+        gap: 2.5rem;
 
-        .problem-section {
-            padding: 2rem;
-        }
-    }
+        .sport-section {
+            padding: 2.5rem 3rem;
 
-    @media screen and (min-width: 900px) {
-        padding: 3rem 2rem;
-
-        .problem-section {
-            padding: 3rem;
-
-            p { font-size: 1.1rem; }
-
-            h3 { text-align: left; }
-
-            img { max-width: 600px; max-height: 450px; }
+            .section-content p {
+                font-size: 1.05rem;
+            }
         }
     }
 }

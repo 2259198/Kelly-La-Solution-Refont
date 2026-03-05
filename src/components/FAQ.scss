@@ -1,5 +1,4 @@
 @import "./styles/variables";
-
 .FAQ {
     display: flex;
     flex-direction: column;
@@ -9,14 +8,12 @@
     margin-top: $margin-top-setting;
     gap: clamp(1.5rem, 4vw, 2.5rem);
 }
-
 h1 {
     font-size: clamp(2rem, 6vw, $default-h1-size);
     color: $header-color;
     letter-spacing: 0.05em;
     margin: 0;
 }
-
 .questions-wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -24,18 +21,18 @@ h1 {
     width: 100%;
     max-width: 1200px;
 }
-
 .questions {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background: $background-color;
     color: black;
     border-radius: 16px;
     border: $borders;
     padding: clamp(1.25rem, 3vw, 2rem) clamp(1rem, 2.5vw, 1.75rem);
     gap: clamp(0.75rem, 2vw, 1rem);
-    min-height: unset; 
+    min-height: 200px;
 
     .question-text {
         font-size: clamp(0.95rem, 2vw, 1.05rem);
@@ -46,7 +43,6 @@ h1 {
         color: black;
         padding-bottom: clamp(0.5rem, 1.5vw, 0.85rem);
     }
-
     h4 {
         text-align: center;
         margin: 0;
@@ -55,7 +51,6 @@ h1 {
         opacity: 0.65;
         padding-bottom: clamp(0.5rem, 1.5vw, 0.85rem);
     }
-
     .answer-text {
         font-size: clamp(0.85rem, 1.8vw, 0.98rem);
         text-align: center;
@@ -64,25 +59,20 @@ h1 {
         color: #444;
     }
 }
-
 @media (min-width: 640px) {
     .questions-wrapper {
         grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 1fr; /* ← forces all rows to equal height */
     }
-
     .questions {
-        min-height: 240px;
-        justify-content: center;
+        height: 100%; /* ← stretches card to fill the row */
     }
 }
-
 @media (min-width: 1024px) {
     .questions {
-        min-height: 260px;
         padding: 2rem 1.75rem;
         gap: 1.1rem;
     }
-
     .questions-wrapper {
         gap: 1.5rem;
     }
