@@ -1,6 +1,5 @@
 @import "./styles/variables";
 
-// List accent colors per section
 $list-colors: (
     "septic-field": #2E6B46,
     "air-injection": #6B9E7A,
@@ -165,10 +164,19 @@ $list-colors: (
             }
         }
     }
-    
+
     @media screen and (min-width: 600px) {
         padding: 2rem;
         gap: 3rem;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-align: left;
+        }
 
         h2 {
             font-size: 1.5rem;

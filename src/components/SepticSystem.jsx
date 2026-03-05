@@ -34,13 +34,6 @@ export default function SepticSystem() {
                 <h1> {t("septic-system.how-it-works-title")} </h1>
                 <p> {t("septic-system.how-it-works-text")} </p>
             </div>
-            <div className="high-pressure-pipe">
-                <h4>{t("septic-system.high-pressure-title")}</h4>
-                <div className="images-row">
-                    <img src={photo1} alt="Aeration image" />
-                    <img src={photo2} alt="Machine image" />
-                </div>
-            </div>
 
             <div className="prefilter">
                 <h1>{t("septic-system.prefilter-title")}</h1>

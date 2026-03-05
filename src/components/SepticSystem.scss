@@ -88,7 +88,6 @@
                 border-radius: 8px;
 
                 &::before {
-                    content: "•";
                     position: absolute;
                     left: 0.75rem;
                     font-weight: bold;
@@ -98,7 +97,6 @@
         }
     }
 
-    // Two side-by-side photos
     .high-pressure-pipe {
         .images-row {
             display: grid;
@@ -116,7 +114,6 @@
         }
     }
 
-    // Prefilter: title full-width, content side-by-side
     .prefilter {
         .prefilter-content {
             display: flex;
@@ -141,7 +138,6 @@
         }
     }
 
-    // Excavation: list + image side-by-side on desktop
     .excation-repair {
         img {
             width: 100%;
@@ -201,7 +197,7 @@
     }
 
     @media (min-width: 1024px) {
-        padding: 3rem 5rem;
+        padding: 6rem 5rem;
         gap: 2.5rem;
 
         .high-pressure-pipe .images-row img {
