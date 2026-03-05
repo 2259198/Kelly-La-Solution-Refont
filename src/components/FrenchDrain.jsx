@@ -6,11 +6,10 @@ import { useTranslation } from "react-i18next";
 
 export default function FrenchDrain() {
     const { t } = useTranslation();
-
     return (
         <div className="FrenchDrain">
+            <h1>{t("french-drain.french-drain-title")}</h1>
             <div className="french-drain-section">
-                <h1>{t("french-drain.french-drain-title")}</h1>
                 <p>{t("french-drain.french-drain-text")}</p>
                 <div className="photos">
                     <img src={photo1} alt="Installation d'un regard d'accès - Kelly La Solution" />

@@ -10,7 +10,7 @@
     "history-title": "History",
     "history-text": "Founded in 2003 in Île Perrot, Kelly La Solution Inc. is built on over 50 years of expertise in septic systems. The company offers complete services including French drain cleaning, mini-camera inspections, system installation and repair, excavation, and prefilter sales and maintenance. Kelly La Solution stands out for its exclusive soil decompaction process using air injection, a fast and non-invasive method that improves all types of soil without damaging the surface. Due to its success, a franchise opened in Val-Bélair in 2005 to serve the greater Quebec City area.",
     "when-title": "When should you contact us?",
-    "skeptic-title": "SEPTIC SYSTEM",
+    "skeptic-title": "Septic System",
     "skeptic-list": [
       "Drain field",
       "Septic tank replacement (plastic or concrete)",
@@ -18,7 +18,7 @@
       "Lid extension (chimney)",
       "Prefilter"
     ],
-    "air-injection-title": "AIR INJECTION DECOMPACTION",
+    "air-injection-title": "Air Injection Decompaction",
     "air-injection-list": [
       "Sports fields (baseball, soccer, football, volleyball)",
       "Dog parks, vineyards, green spaces"
@@ -28,13 +28,13 @@
       "Property expansion",
       "Pool or shed installation"
     ],
-    "french-drain-title": "FRENCH DRAIN",
+    "french-drain-title": "French Drain",
     "french-drain-list": [
       "French drain cleaning",
       "Access pit installation for easier maintenance",
       "Mini-camera inspection with report"
     ],
-    "solution-title": "OUR SOLUTION IS",
+    "solution-title": "Our solution is",
     "solutions": [
       "Fast",
       "Cost-effective",
@@ -43,10 +43,10 @@
     "companies-title": "We work with homeowners, cities, and municipalities"
   },
   "septic-system": {
-    "problems-drainage-title": "DRAINAGE PROBLEMS",
-    "leach-field-title": "LEACH FIELD",
+    "problems-drainage-title": "Drainage Problems",
+    "leach-field-title": "Leach Field",
     "leach-field-text": "Specialists in soil aeration and decompaction using innovative air-injection technology to restore septic fields efficiently and sustainably.",
-    "problem-title": "THE PROBLEM",
+    "problem-title": "The Problem",
     "problem-text": "A failing septic system can cause surface water, slow drainage, odors, or backups inside the house.",
     "problem-list": [
       "Odors outdoors",
@@ -55,15 +55,15 @@
       "Water backing up during pumping",
       "Saturated ground impossible to mow"
     ],
-    "solution-title": "THE SOLUTION",
+    "solution-title": "The Solution",
     "solution-text": "Kelly La Solution Inc. uses an exclusive restoration method that resolves soil compaction and saturation, extending the life of your septic system without damaging landscaping.",
-    "how-it-works-title": "HOW IT WORKS",
+    "how-it-works-title": "How It Works",
     "how-it-works-text": "After locating the drain field, a probe is inserted 1–2 meters into the soil. High-pressure air is injected to create pathways for water and oxygen, restoring proper drainage. The process is repeated across the field based on soil conditions.",
-    "high-pressure-title": "HIGH-PRESSURE CLEANING",
-    "prefilter-title": "PREFILTER",
+    "high-pressure-title": "High-Pressure Cleaning",
+    "prefilter-title": "Prefilter",
     "prefilter-text": "Prefilters prevent solids from clogging the drain field and require regular maintenance.",
     "prefilter-text-under-pic": "Prefilters retain grease and suspended solids, extending system life. Cleaning frequency can be adapted to your needs.",
-    "excavation-title": "EXCAVATION & REPAIR",
+    "excavation-title": "Excavation & Repair",
     "excavation-subtitle": "Mini-excavation and chimney installation to avoid unnecessary digging",
     "excavation-list": [
       "Pipe blockages cleaned under pressure",
@@ -73,7 +73,7 @@
       "Lid replacement",
       "Odor detection with smoke testing"
     ],
-    "location-title": "LOCATION",
+    "location-title": "Location",
     "location-text": "We locate septic systems for permits related to pools, property expansion, garages, or sheds—regardless of system age."
   },
   "contact": {
@@ -93,7 +93,7 @@
     }
   },
   "spiral-rake": {
-    "spiral-rake-title": "SPIRAL RAKE",
+    "spiral-rake-title": "Spiral Rake",
     "ideal-for-title": "Ideal for:",
     "ideal-for-list": [
       "Earth",
@@ -122,14 +122,14 @@
     "french-drain-text": "Iron ochre problem? We solve iron ochre issues, a viscous substance commonly called iron-eating bacteria. Sometimes, this orange sludge develops in the foundation drain, which can obstruct it and cause damage to the pump. Experts in French drain cleaning and camera inspection, we also install access chimneys and pumping stations."
   },
   "sport-field": {
-    "sport-field-title": "Sport field",
-    "the-problem-title": "The problem",
+    "sport-field-title": "Sport Field",
+    "the-problem-title": "The Problem",
     "the-problem-text": "Sports fields (baseball, football, soccer, volleyball ...), green spaces, dog parks, vineyards ... no matter the nature of the ground, the soil is too compact.",
     "symptoms-title": "Symptoms",
     "symptoms-text": "After a rain the water remains on the surface of the ground. The land stays wet for a long time. Drainage no longer works.",
-    "solution-title": "The solution",
+    "solution-title": "The Solution",
     "solution-text": "Kelly La Solution Inc. owns an air-injection restoration technique to solve soil problems (including compaction). Specialist in aeration and decompaction of all types of soils. Our technology is: economic, efficient, environmentally friendly and unique.",
-    "operation-title": "Operation",
+    "operation-title": "How It Works",
     "operation-text": "Using a pneumatic hammer in the soil we insert a probe of 3 cm in diameter and a depth between 7 and 12 inches. Using a high-pressure compressor, approximately 65 pounds of air are injected in the ground. After the air injection, the ground cracks horizontally and vertically. The surface of the ground will move about 3 meters in diameter, the drainage is instantaneous. This solution is repeated every 1.5 meters according to the soil condition."
   },
   "photos": {
@@ -183,6 +183,6 @@
     }
   },
   "septic-field": {
-    "problems": "PROBLEMS OF DRAINAGE (SEPTIC FIELD)"
+    "problems": "Drainage Problems (Septic Field)"
   }
 }
