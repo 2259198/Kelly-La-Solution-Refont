@@ -20,7 +20,7 @@ export default function Contact() {
             711 Route Harwood Suite 110 Vaudreuil-Dorion (Québec) J7V 8P2
           </p>
           <p>
-            <FontAwesomeIcon icon={faPhone} /> 514 425-3535 | Sans frais 1 877
+            <FontAwesomeIcon icon={faPhone} /> 514 425-3535 | 1 877
             858-3535 | 418 842-3636
           </p>
           <p>
