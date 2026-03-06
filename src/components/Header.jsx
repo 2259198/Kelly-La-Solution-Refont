@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import "./Header.scss";
 
 export default function Header() {
@@ -33,35 +34,31 @@ export default function Header() {
         <span></span>
         <span></span>
       </button>
-
       <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
-        <a href="/" onClick={closeMenu}>{t("nav.home")}</a>
-        <a href="/Photos" onClick={closeMenu}>{t("nav.photos")}</a>
-
+        <Link to="/" onClick={closeMenu}>{t("nav.home")}</Link>
+        <Link to="/Photos" onClick={closeMenu}>{t("nav.photos")}</Link>
         <div className="dropdown">
           <button className="dropdown-toggle" onClick={toggleSystems}>
             {t("nav.systems")}
             <span className={`arrow ${systemsOpen ? "open" : ""}`}>▼</span>
           </button>
           <div className={`dropdown-menu ${systemsOpen ? "active" : ""}`}>
-            <a href="/systems/septic" onClick={closeMenu}>
+            <Link to="/systems/septic" onClick={closeMenu}>
               {t("nav.septicSystem") || "Septic System"}
-            </a>
-            <a href="/systems/spiral-rake" onClick={closeMenu}>
+            </Link>
+            <Link to="/systems/spiral-rake" onClick={closeMenu}>
               {t("nav.spiralRake") || "Spiral Rake"}
-            </a>
-            <a href="/systems/french-drain" onClick={closeMenu}>
+            </Link>
+            <Link to="/systems/french-drain" onClick={closeMenu}>
               {t("nav.frenchDrain") || "French Drain"}
-            </a>
-            <a href="/systems/sport-field" onClick={closeMenu}>
+            </Link>
+            <Link to="/systems/sport-field" onClick={closeMenu}>
               {t("nav.sportField") || "Sport Field"}
-            </a>
+            </Link>
           </div>
         </div>
-
-        <a href="/FAQ" onClick={closeMenu}>{t("nav.faq")}</a>
-        <a href="/Contact" onClick={closeMenu}>{t("nav.contact")}</a>
-
+        <Link to="/FAQ" onClick={closeMenu}>{t("nav.faq")}</Link>
+        <Link to="/Contact" onClick={closeMenu}>{t("nav.contact")}</Link>
         <button className="lang-btn" onClick={toggleLanguage}>
           {i18n.language === "fr" ? "EN" : "FR"}
         </button>
