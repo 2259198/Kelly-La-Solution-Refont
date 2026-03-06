@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Kelly-La-Solution-Refont/',
   plugins: [
     react({
-      base: '/Kelly-La-Solution-Refont/',
       babel: {
         plugins: [['babel-plugin-react-compiler']],
       },
