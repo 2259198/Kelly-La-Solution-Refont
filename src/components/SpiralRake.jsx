@@ -53,7 +53,7 @@ export default function SpiralRake() {
                             </div>
                             <div className="location-phone">
                                 <FontAwesomeIcon icon={faPhone} className="loc-icon" />
-                                <a href={`tel:${loc.phone.replace(/\./g, "")}`}>{loc.phone}</a>
+                                <span>{loc.phone}</span>
                             </div>
                         </div>
                     ))}

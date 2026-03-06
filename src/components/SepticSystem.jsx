@@ -41,6 +41,7 @@ export default function SepticSystem() {
                     <div className="prefilter-text">
                         <p>{t("septic-system.prefilter-text")}</p>
                         <p>{t("septic-system.prefilter-text-under-pic")}</p>
+                        <p>{t("septic-system.prefilter-text-extra")}</p>
                     </div>
                     <img src={photo3} alt="Prefilter image" />
                 </div>

@@ -94,6 +94,7 @@ $list-colors: (
                 display: flex;
                 align-items: center;
                 gap: $default-gap-setting;
+                background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
 
                 &::before {
                     content: "✓";
@@ -101,11 +102,6 @@ $list-colors: (
                     left: 1rem;
                     font-weight: bold;
                     color: #4CAF50;
-                }
-
-                &:hover {
-                    background-color: #e9ecef;
-                    transform: translateX(4px);
                 }
             }
         }
@@ -153,14 +149,9 @@ $list-colors: (
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                transition: all 0.3s ease;
+                background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
+                box-shadow: 0 4px 12px rgba(74, 124, 89, 0.2);
 
-                &:hover {
-                    background-color: #e8f3eb;
-                    border-color: #4A7C59;
-                    transform: translateY(-2px);
-                    box-shadow: 0 4px 12px rgba(74, 124, 89, 0.2);
-                }
             }
         }
     }
