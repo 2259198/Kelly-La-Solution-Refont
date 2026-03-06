@@ -8,7 +8,9 @@ export default function Header() {
   const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
-    i18n.changeLanguage(i18n.language === "fr" ? "en" : "fr");
+    const newLang = i18n.language === "fr" ? "en" : "fr";
+    i18n.changeLanguage(newLang);
+    localStorage.setItem("language", newLang);
   };
 
   const toggleSystems = () => {
@@ -22,20 +24,20 @@ export default function Header() {
 
   return (
     <header className="Header">
-      <button 
-        className={`burger ${menuOpen ? "open" : ""}`} 
-        onClick={() => setMenuOpen(!menuOpen)} 
+      <button
+        className={`burger ${menuOpen ? "open" : ""}`}
+        onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Menu"
       >
         <span></span>
         <span></span>
         <span></span>
       </button>
-      
+
       <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
         <a href="/" onClick={closeMenu}>{t("nav.home")}</a>
         <a href="/Photos" onClick={closeMenu}>{t("nav.photos")}</a>
-        
+
         <div className="dropdown">
           <button className="dropdown-toggle" onClick={toggleSystems}>
             {t("nav.systems")}
@@ -56,10 +58,10 @@ export default function Header() {
             </a>
           </div>
         </div>
-        
+
         <a href="/FAQ" onClick={closeMenu}>{t("nav.faq")}</a>
         <a href="/Contact" onClick={closeMenu}>{t("nav.contact")}</a>
-        
+
         <button className="lang-btn" onClick={toggleLanguage}>
           {i18n.language === "fr" ? "EN" : "FR"}
         </button>

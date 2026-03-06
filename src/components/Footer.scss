@@ -7,10 +7,10 @@
     align-items: center;
     background-color: $footer-background-color;
     padding: $default-padding-setting;
-    margin-top: 1rem;
     text-align: center;
     font-weight: 600;
     color: #D1D5DB;
+    font-size: 0.875rem;
     width: $default-width;
 
     .elements {
@@ -33,6 +33,7 @@
 
             li {
                 list-style-type: none;
+                margin-top: 1rem;
             }
         }
     }
